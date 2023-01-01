@@ -18,7 +18,6 @@
 
 body{
     background: #F6F6F6;
-    margin: 0;
 }
 .section{
     margin-left: 127px;
@@ -38,7 +37,6 @@ color: #45505C;
     width: 75%;
     position: relative;
     margin-bottom: 100px;
-    box-shadow: 0 16px 40px rgba(112, 144, 176, 0.2);
  border-radius: 10px;
     margin-left: 127px;
     margin-right: 127px;
@@ -61,24 +59,24 @@ color: #45505C;
     border-radius: 10px;
 
 }
-.PasteText {
-        width: 75%;
+.textField {
+    margin-top: 35px;
+    width: 75%;
+    height: 374px;
     position: relative;
-    margin-bottom: 100px;
     box-shadow: 0 16px 40px rgba(112, 144, 176, 0.2);
     border-radius: 10px;
-        margin-left: 127px;
-    margin-right: 127px;
 }
-.imgeSource{
-    margin-left: 97%;
-    margin-top: 5px;
-    background-color:#F6F6F6;
-}
-.imgeText{
-  margin-left: 97%;
+.textField::placeholder {
+    text-align: start;
 }
 
+.imgeSource{
+
+    margin-left: 97%;
+    margin-top: -40px;
+    background-color:#F6F6F6;
+}
 
        u{
  margin-left: 540px;
@@ -91,22 +89,22 @@ font-style: normal;
 }
        p{
            font-family: 'Tajawal', serif;
-font-style: normal;
+           font-style: normal;
            color: #8C8C8E;
            font-size: 18px;
- margin-right: 97%;
+            margin-right: 97%;
        }
         .button{
-        width: 296px;
-        height: 48px;
-        border-radius: 6px;
-        color: #FFFFFF;
-        display: inline-block;
-        font-size: 22px;
-        background: var(--black-color);
-            text-decoration: none;
- margin-left: 445px;
-    margin-right: 445px;
+               width: 296px;
+                height: 48px;
+                background: #1A191E;
+                border: none;
+                border-radius: 6px;
+                color: #FFFF;
+                font-family: 'DM Sans';
+                font-size: 22px;
+         margin-left: 445px;
+         margin-right: 445px;
         }
 
         .button:hover{
