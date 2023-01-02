@@ -23,10 +23,6 @@ nav{
     width: 123px; /* logo width size */
 }
 
-.avatar {
-    margin-left: 750px; /* position of the avatar */
-}
-
 .nav-links{
     padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
     font-size: 13pt; /* size of the font */
@@ -49,6 +45,35 @@ nav{
 .nav-links li a:hover{
     color: #62B2A1; /* color of hover */
 }
+
+.nav-links-2{
+    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    font-size: 13pt; /* size of the font */
+    font-family: 'DM Sans', sans-serif; /* font family for the list items */
+    font-weight: 420; /* font thickness */
+    margin-right: 10px; /* the space between the logo and first li */
+    position: absolute;
+    right: 20px;}
+
+.nav-links-2 li {
+    display: inline-block; /* to display list items horizontally */
+    margin: 0 17px; /* space between list items */
+}
+
+.nav-links-2 li a{
+    text-decoration: none; /* remove the underline */
+    color: #1A191E; /* text color of the list items */
+    padding: 5px 0; /* padding to click the item */
+}
+
+#log a:hover{
+    color: #CE0000; /* color of hover */
+}
+
+#prof a:hover{
+    color: #62B2A1; /* color of hover */
+}
+
 /* end of header style*/
 
 /* body and content style */
@@ -185,8 +210,10 @@ U a:hover {
 }
 
 hr {
-    border: 1px solid #FFFFFF;
     width: 92%;
+     border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(1, 1, 1, 0), rgba(255, 255, 255, 0.75), rgba(1, 1, 1, 0));
     position: absolute;
     bottom: 60px;
 }
