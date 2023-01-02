@@ -57,22 +57,35 @@ display: flex;
 }
 .Services-section{
  padding: 80px 0;
+    margin-left: 115px;
 }
 
 .Services-section .services-cards{
     display: flex;
     gap: 116px;
 }
-.Services-section .services-cards img{
-    left: 83.56%;
-    right: 5.64%;
-    top: 50.05%;
-    bottom: 2.18%;
+.Services-section .services-card{
+    width: 560px;
+    height: 214.95px;
+    box-shadow: 0px 16px 40px rgba(112,144,176,0.2);
+    border-radius: 20px;
+}
+.Services-section .services-card img{
+    margin-left: 400px;
+    margin-top: -98px;
+    transform: matrix(-0.99,-0.14,-0.14,0.99,0,0);
+}
+.Services-section .services-card img{
     transform: matrix(0.99,-0.13,0.14,0.99,0,0);
+}
+.info h4 {
+    margin-top: 60px;
+    margin-left: 40px;
 }
 .info p{
     font-family: 'DM Sans';
     font-weight: 500;
     font-size: 18px;
+    margin-left: 40px;
     color: #1A191E;
 }
