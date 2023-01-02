@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News Detection</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Link to CSS  File-->
+    <link rel="stylesheet" href="NewsDetection.css">
+</head>
+
+<body>
+    <!-- Link to JS  File-->
+    <script src="main.js"></script>
+
+    <!-- Page Header -->
+    <div class="header">
+        <nav>
+            <img src="images/YaqnLogoSVG.svg" class="logo">
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="NewsDetection.html">News detection</a></li>
+                <li><a href="">Report fake news</a></li>
+            </ul>
+            <img src="images/avatarWithArrow.svg" class="avatar">
+        </nav>
+    </div>
+
+    <!-- Page Content -->
+    <div class="content">
+        <H3>News detection</H3>
+        <form>
+            <div class="SourceName">
+                <input type="text" placeholder="Write the source name" class="textSource" id="textSource">
+                <div class="imageSource">
+                    <img src="images/globe.asia.australia.svg" alt="" width="25" height="25">
+                </div>
+                <input type="text" placeholder="Paste text here or upload an image" class="textField" id="textField" >
+                <img src="images/TextFormatting.svg" alt="" width="25" height="25" id="imageText">
+                <p id="number"> 0/500 </p>
+            </div>
+        </form>
+    </div>
+
+    <button type="submit" class="button"> Check </button>
+    <u> Report fake news </u>
+
+</body>
+</html>

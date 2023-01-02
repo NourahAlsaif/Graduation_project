@@ -1,0 +1,124 @@
+body {
+    --color-primary: #45505c;
+    --color-primary-dark: #576370;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #45505c;
+    --border-radius: 4px;
+
+    font-size: 18px;
+    background-size: cover;
+}
+
+body {
+    background-color: #F6F6F6;
+    margin-left: 127px;
+    margin-right: 127px;
+}
+
+.container {
+top:180px;
+position: absolute;
+width: 280px;
+}
+.container,
+.form__input,
+.form__button {
+          width: 100%;
+          padding: 10px 0;
+          margin: 5px 0;
+          border-left: 0;
+          border-top: 0;
+          border-right: 0;
+          border-bottom: 1px solid #999;
+          outline: none;
+          background: transparent;
+    font: 500 1rem 'Quicksand', sans-serif;
+
+}
+
+.form--hidden {
+    display: none;
+}
+
+.form > *:first-child {
+    margin-top: 0;
+}
+
+.form > *:last-child {
+    margin-bottom: 0;
+}
+
+.form__title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form__message {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message--success {
+    color: var(--color-success);
+}
+
+.form__input-group {
+    margin-bottom: 1rem;
+}
+
+.form__input {
+         width: 531px;
+         border: none;
+         border-bottom: 2px solid #45505C;
+         font-size: 20px;
+         margin: 30px 10px 10px 10px;
+}
+
+.form__input:focus {
+          outline:none;
+          border-bottom: 2px solid #62B2A1;
+}
+        .a:hover{
+        color: #62B2A1;
+        }
+
+.form__button {
+                width: 296px;
+                height: 48px;
+
+                background: #1A191E;
+                border: none;
+                border-radius: 6px;
+                color: #FFFF;
+                font-family: 'DM Sans';
+                font-size: 22px;
+                 margin-left: 571px;
+    margin-right: 571px;
+}
+
+.form__button:hover {
+                 border: none;
+                background: #62B2A1;
+}
+
+.form__button:active {
+    transform: scale(0.98);
+}
+.form__text {
+    text-align: center;
+}
+
+.form__link {
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form__link:hover {
+    text-decoration: underline;
+}
+.imgePerson{
+    margin-left: 665px;
+    margin-right: 665px;
+}
