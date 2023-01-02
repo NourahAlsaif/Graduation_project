@@ -16,6 +16,10 @@ nav{
     width: 123px;
 }
 
+.avatar {
+    margin-left: 750px;
+}
+
 .nav-links{
     padding: 28px 0;
     font-family: DM Sans;
