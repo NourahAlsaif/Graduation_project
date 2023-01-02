@@ -96,21 +96,24 @@ font-style: normal;
            font-size: 18px;
  margin-right: 97%;
        }
-        .button{
-        width: 296px;
-        height: 48px;
-        border-radius: 6px;
-        color: #FFFFFF;
-        display: inline-block;
-        font-size: 22px;
-        background: var(--black-color);
-            text-decoration: none;
- margin-left: 445px;
-    margin-right: 445px;
-        }
+  .button{
 
-        .button:hover{
-                border: none;
-                background: #62B2A1;
+    width: 296px;
+    height: 48px;
 
-        }
+    background: #1A191E;
+    border: none;
+    border-radius: 6px;
+    color: #FFFF;
+
+    font-family: 'DM Sans';
+    font-size: 22px;
+    margin: 100px 0px 0px 0px;
+
+}
+.button:hover{
+    border: none;
+    background: #62B2A1;
+
+
+}
