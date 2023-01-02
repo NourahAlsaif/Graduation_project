@@ -1,0 +1,99 @@
+.login_font{
+
+    width: 400px;
+    height: 96px;
+    font-family: 'JK Abode';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    color: #62B2A1;
+    margin-bottom: 50px;
+    margin-left: 180px;
+}
+
+
+.button{
+
+    width: 296px;
+    height: 48px;
+
+    background: #1A191E;
+    border: none;
+    border-radius: 6px;
+    color: #FFFF;
+
+    font-family: 'DM Sans';
+    font-size: 22px;
+
+
+
+}
+.button:hover{
+    border: none;
+    background: #62B2A1;
+
+
+}
+
+.input_field{
+    width: 531px;
+    border: none;
+    border-bottom: 2px solid #45505C;
+    font-size: 20px;
+    margin: 30px 10px 10px 10px;
+
+}
+
+.input_field:focus{
+    outline:none;
+    border-bottom: 2px solid #62B2A1;
+
+}
+.a{color: #62B2A1;}
+.a:hover{
+    color: #62B2A1;
+}
+
+
+
+
+
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+
+    position: absolute;
+    width: 618px;
+    height: 1024px;
+    left: 0px;
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 17px;
+
+    position: absolute;
+    width: 531px;
+    height: 710px;
+    left: 763px;
+    top: 83px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
