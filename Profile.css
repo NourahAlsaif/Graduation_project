@@ -1,8 +1,3 @@
-
-
-
-
-
 .form__input {
          width: 531px;
          border: none;
@@ -28,8 +23,8 @@
                 font-family: 'DM Sans';
                 font-size: 22px;
                  margin-left: 571px;
-    margin-right: 571px;
-    margin-top: 32px;
+                margin-right: 571px;
+                margin-top: 32px;
 }
 
 .form__button:hover {
