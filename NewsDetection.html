@@ -26,32 +26,65 @@
         <nav>
             <img src="images/YaqnLogoSVG.svg" class="logo">
             <ul class="nav-links">
-                <li><a href="">Home</a></li>
-                <li><a href="NewsDetection.html">News detection</a></li>
-                <li><a href="">Report fake news</a></li>
+                <li><a href="Home%20page.html">Home</a></li>
+                <li><a href="NewsDetection.html"> <font color="#62B2A1"> News detection </font> </a></li>
+                <li><a href="Report%20fake%20news%20page.html">Report fake news</a></li>
             </ul>
+
             <img src="images/avatarWithArrow.svg" class="avatar">
+
         </nav>
     </div>
+
 
     <!-- Page Content -->
     <div class="content">
         <H3>News detection</H3>
         <form>
+
             <div class="SourceName">
+                <!-- source name input field -->
                 <input type="text" placeholder="Write the source name" class="textSource" id="textSource">
+
                 <div class="imageSource">
                     <img src="images/globe.asia.australia.svg" alt="" width="25" height="25">
                 </div>
-                <input type="text" placeholder="Paste text here or upload an image" class="textField" id="textField" >
+
+                <!-- news input field -->
+                <textarea placeholder="Paste text here or upload an image" name ="newsInputText" rows="12" cols="131"></textarea>
+
+                <div class="imageText">
                 <img src="images/TextFormatting.svg" alt="" width="25" height="25" id="imageText">
+                </div>
                 <p id="number"> 0/500 </p>
             </div>
         </form>
     </div>
 
     <button type="submit" class="button"> Check </button>
-    <u> Report fake news </u>
+    <u> <a href="Report%20fake%20news%20page.html"> Report fake news </a></u>
 
+    <!-- Page Footer -->
+        <div class="footer">
+            <img src="images/footer.svg" class="Footerlogo">
+
+            <nav class="footernav">
+                <ul class="footer-nav-links-1">
+                    <li> <font color="#ffffff"> Services </font> </li>
+                    <li><a href="NewsDetection.html"> Detection </a></li>
+                    <li><a href="Report%20fake%20news%20page.html"> Report </a></li>
+                </ul>
+
+                 <ul class="footer-nav-links-2">
+                    <li> <font color="#ffffff"> Contact </font> </li>
+                    <li><a href="#"> Email </font> </a></li>
+                    <li><a href="#"> Twitter </a></li>
+                </ul>
+
+            </nav>
+            <hr>
+
+            <p id="madeBy"> Made by&nbsp<font color ="#62B2A1">Figma</font> </p>
+        </div>
 </body>
 </html>
