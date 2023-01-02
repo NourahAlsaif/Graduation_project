@@ -124,7 +124,7 @@ textarea {
 }
 
 /* 0/500 style */
-p{
+#number{
     font-family: 'Tajawal', sans-serif; /* font family */
     color: #9A9A9B; /* text color */
     font-size: 18px; /* font size */
@@ -142,7 +142,7 @@ p{
     border-radius: 6px; /* border radius */
     color: #FFFFFF; /* white color for CHECK text */
     font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
-    font-size: 20px; /* font size */
+    font-size: 22px; /* font size */
     margin: auto; /* to center the button */
     display: block; /* to center the button */
 }
@@ -155,8 +155,8 @@ p{
 
 /* style of Report fake news URL */
 u a{
-    margin-top: 13px; /* top margin */
-    margin-bottom: 50px; /* bottom margin */
+    margin-top: 15px; /* top margin */
+    margin-bottom: 140px; /* bottom margin */
     display: flex; /* center */
     justify-content: center; /* center */
     font-family: 'Tajawal', sans-serif; /* font family */
@@ -167,5 +167,81 @@ u a{
 /* hover of Report fake news URL */
 U a:hover {
     color: #62B2A1; /* hover color */
+}
+
+/* footer style */
+.footer{
+    height: 280px; /* height of the background */
+    width: 100%; /* width of the background */
+    background: #45505c; /* white background */
+    padding: 0 5%; /* padding of the background (R&L: 5%), (T&B: 0) */
+    position: relative; /* positioned relative to its normal position */
+}
+
+.Footerlogo{
+    width: 340px; /* logo width size */
+    position: absolute;
+    bottom: 80px;
+}
+
+hr {
+    border: 1px solid #FFFFFF;
+    width: 92%;
+    position: absolute;
+    bottom: 60px;
+}
+
+#madeBy {
+    margin-top: 240px;
+    display: flex; /* center */
+    justify-content: center; /* center */
+    font-family: 'DM Sans', sans-serif;
+    color: #B7C1C2;
+}
+
+.footernav {
+       display: flex; /* To align the elements in auto width and auto height.*/
+}
+
+.footer-nav-links-1{
+    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    font-size: 15pt; /* size of the font */
+    font-family: 'DM Sans', sans-serif; /* font family for the list items */
+    margin-left: 40px; /* the space between the logo and first li */
+    position: absolute;
+    bottom: 70px;
+    right: 380px;
+}
+
+.footer-nav-links-1 li {
+    display: block; /* to display list items horizontally */
+    margin: 17px 0px; /* space between list items */
+}
+
+.footer-nav-links-1 a{
+    text-decoration: none; /* remove the underline */
+    color: #B7C1C2; /* text color of the list items */
+    padding: 5px 0; /* padding to click the item */
+}
+
+.footer-nav-links-2{
+    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    font-size: 15pt; /* size of the font */
+    font-family: 'DM Sans', sans-serif; /* font family for the list items */
+    margin-left: 40px; /* the space between the logo and first li */
+    position: absolute;
+    bottom: 70px;
+    right: 170px;
+}
+
+.footer-nav-links-2 li {
+    display: block; /* to display list items horizontally */
+    margin: 17px 0px; /* space between list items */
+}
+
+.footer-nav-links-2 a{
+    text-decoration: none; /* remove the underline */
+    color: #B7C1C2; /* text color of the list items */
+    padding: 5px 0; /* padding to click the item */
 }
 
