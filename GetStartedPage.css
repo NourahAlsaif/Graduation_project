@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* header style */
 .header{
     height: 82px; /* height of the background */
@@ -51,13 +52,23 @@ nav{
 
 /* nav-link-2 & list items style */
 .nav-links-2{
-    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
-    font-size: 13pt; /* size of the font */
-    font-family: 'DM Sans', sans-serif; /* font family for the list items */
+    padding: 20px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
     font-weight: 420; /* font thickness */
     margin-right: 10px; /* the space between the logo and first li */
     position: absolute; /* absolute position */
     right: 20px; /* right margin */
+}
+
+.buttonLogin{
+    width: 91px; /* button width */
+    height: 42px; /* button height */
+    background: #62B2A1; /* background color */
+    border: none; /* no borders */
+    border-radius: 6px; /* border radius */
+    color: #FFFFFF; /* white color for CHECK text */
+    font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
+    font-size: 18px; /* font size */
+    color: #FFFFFF;
 }
 
 .nav-links-2 li{
@@ -67,18 +78,10 @@ nav{
 
 .nav-links-2 li a{
     text-decoration: none; /* remove the underline */
-    color: #1A191E; /* text color of the list items */
+    color: #FFFFFF; /* text color of the list items */
     padding: 5px 0; /* padding to click the item */
 }
 
-#log a:hover{
-    color: #CE0000; /* color of hover */
-}
-
-#prof a:hover{
-    color: #62B2A1; /* color of hover */
-}
-/* end of header style*/
 
 body{
     background: #F6F6F6; /* page background */
@@ -86,39 +89,44 @@ body{
 
 .content{
     margin-top: 50px; /* space between the H3 and header */
-    margin-left: 143px; /* content left margin */
-    margin-right: 140px; /* content right margin */
+    margin-left: 145px; /* content left margin */
+    margin-right: 120px; /* content right margin */
     position: relative;
 }
 
 .container{
     display: flex;
-    height: 400px ;
+    height: 600px ;
     width: 1213px;
     left: 102px;
     top: 200px;
-    margin-top: 40px;
-    align-items: center;
-    justify-content: space-between;
+    margin-top: 90px;
+/*    justify-content: space-between; */
 }
 
 .content h1{
+    margin-top: 90px;
     font-family: 'DM Sans', sans-serif;
     font-size: 60px;
 }
 
 .button{
-    width: 150px; /* button width */
+    padding: 0px;
+    width: 148px; /* button width */
     height: 48px; /* button height */
     background: #1A191E; /* background color */
     border: none; /* no borders */
     border-radius: 6px; /* border radius */
     color: #FFFFFF; /* white color for CHECK text */
     font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
-    font-size: 15px; /* font size */
-    display: inline; /* to center the button */
+    font-size: 17px; /* font size */
     position: absolute;
-    bottom: 30px;
+    margin-top: 280px;
+}
+
+.link:visited, .link:active, .link:link{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 /* button hover style */
@@ -132,8 +140,8 @@ body{
     height: 202px;
     margin-right: 20px;
     position: absolute;
-right: 30px;
-    top:100px;
+    right: 0px;
+    top:120px;
 }
 
 /* footer style */
