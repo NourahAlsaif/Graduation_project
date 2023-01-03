@@ -2,7 +2,8 @@
     --dark-gray-color: #45505C;
     --light-blue-color: #62B2A1;
     --light-blue-color: #999999;
-    --ligh-gray-color: #8C8C8E;
+    --light-gray-color: #8C8C8E;
+    --light-green-color: #E8F2EE;
     color: #ffff;
     color: #000000;
     color: #231F20;
@@ -98,7 +99,7 @@ display: flex;
     width: 1213px;
     left: 102px;
     top: 286px;
-    margin-top: 70px;
+    margin-top: 100px;
     align-items: center;
     justify-content: space-between;
 }
@@ -115,19 +116,34 @@ display: flex;
     display: flex;
     gap: 116px;
 }
+/* Detection news page box and photo design */
 .Services-section .services-card{
     width: 560px;
-    height: 214.95px;
+    height: 222.68px;
+    left: 0px;
+    top: 43px;
     box-shadow: 0px 16px 40px rgba(112,144,176,0.2);
     border-radius: 20px;
 }
 .Services-section .services-card img{
-    margin-left: 430px;
-    margin-top: -98px;
-    transform: matrix(-0.99,-0.14,-0.14,0.99,0,0);
+    margin-left: 410px;
+    margin-top: -120px;
+    transform: matrix(0.99,-0.14,-0.14,0.99,0,0);
 }
-.Services-section .services-card img{
-    transform: matrix(0.99,-0.13,0.14,0.99,0,0);
+/* Report page box and photo design */
+.Services-section .services-cardd{
+    width: 560px;
+    height: 222.68px;
+    left: 0px;
+    top: 43px;
+    box-shadow: 0px 16px 40px rgba(112,144,176,0.2);
+    border-radius: 20px;
+}
+.Services-section .services-cardd img{
+    position: absolute;
+     margin-left: 400px;
+    margin-top: -95px;
+     transform: matrix(0.99,-0.13,0.14,0.99,0,0);
 }
 .info h4 {
     margin-top: 60px;
@@ -139,4 +155,114 @@ display: flex;
     font-size: 18px;
     margin-left: 40px;
     color: #1A191E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer style */
+.footer{
+    height: 280px; /* height of the background */
+    width: 100%; /* width of the background */
+    background: #45505c; /* background color */
+    padding: 0 5%; /* padding of the background (R&L: 5%), (T&B: 0) */
+    position: relative; /* positioned relative to its normal position */
+}
+
+/* footer logo style */
+.Footerlogo{
+    width: 340px; /* logo width size */
+    position: absolute; /* absolute position */
+    bottom: 80px; /* bottom distance */
+}
+
+/* horizontal row style */
+hr{
+    width: 92%; /* hr width */
+    border: 0; /* no borders */
+    height: 1px; /* hr height */
+    background-image: linear-gradient(to right, rgba(1, 1, 1, 0), rgba(255, 255, 255, 0.75), rgba(1, 1, 1, 0)); /* style of hr */
+    position: absolute; /* absolute position */
+    bottom: 60px; /* bottom distance */
+}
+
+/* made by figma style */
+#madeBy {
+    margin-top: 222px; /* top margin */
+    display: flex; /* center */
+    justify-content: center; /* center */
+    font-family: 'DM Sans', sans-serif; /* font family */
+    color: #B7C1C2; /* text color */
+}
+
+/* footer nav style */
+.footernav {
+       display: flex; /* To align the elements in auto width and auto height.*/
+}
+
+/* footer-nav-links-1 & list items style */
+.footer-nav-links-1{
+    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    font-size: 15pt; /* size of the font */
+    font-family: 'DM Sans', sans-serif; /* font family for the list items */
+    margin-left: 40px; /* the space between the logo and first li */
+    position: absolute; /* absolute position */
+    bottom: 70px; /* bottom distance */
+    right: 380px; /* right distance */
+}
+
+.footer-nav-links-1 li {
+    display: block; /* to display list items horizontally */
+    margin: 17px 0px; /* space between list items */
+}
+
+.footer-nav-links-1 a{
+    text-decoration: none; /* remove the underline */
+    color: #B7C1C2; /* text color of the list items */
+    padding: 5px 0; /* padding to click the item */
+}
+
+/* footer-nav-links-2 & list items style */
+.footer-nav-links-2{
+    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    font-size: 15pt; /* size of the font */
+    font-family: 'DM Sans', sans-serif; /* font family for the list items */
+    margin-left: 40px; /* the space between the logo and first li */
+    position: absolute; /* absolute position */
+    bottom: 70px; /* bottom distance */
+    right: 170px; /* right distance */
+}
+
+.footer-nav-links-2 li {
+    display: block; /* to display list items horizontally */
+    margin: 17px 0px; /* space between list items */
+}
+
+.footer-nav-links-2 a{
+    text-decoration: none; /* remove the underline */
+    color: #B7C1C2; /* text color of the list items */
+    padding: 5px 0; /* padding to click the item */
 }
