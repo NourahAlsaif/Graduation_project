@@ -13,27 +13,24 @@
 }
 
 
+/* button style */
 .button{
-
-    width: 296px;
-    height: 48px;
-
-    background: #1A191E;
-    border: none;
-    border-radius: 6px;
-    color: #FFFF;
-
-    font-family: 'DM Sans';
-    font-size: 22px;
-
-
-
+    width: 296px; /* button width */
+    height: 48px; /* button height */
+    background: #1A191E; /* background color */
+    border: none; /* no borders */
+    border-radius: 6px; /* border radius */
+    color: #FFFFFF; /* white color for CHECK text */
+    font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
+    font-size: 22px; /* font size */
+    margin: auto; /* to center the button */
+    display: block; /* to center the button */
 }
+
+/* button hover style */
 .button:hover{
-    border: none;
-    background: #62B2A1;
-
-
+    border: none; /* no borders */
+    background: #62B2A1; /* hover color */
 }
 
 .input_field{
