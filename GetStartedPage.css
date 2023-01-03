@@ -52,7 +52,7 @@ nav{
 
 /* nav-link-2 & list items style */
 .nav-links-2{
-    padding: 20px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    padding: 20px 0px; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
     font-weight: 420; /* font thickness */
     margin-right: 10px; /* the space between the logo and first li */
     position: absolute; /* absolute position */
