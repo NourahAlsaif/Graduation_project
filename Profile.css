@@ -1,9 +1,93 @@
+/* page style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header style */
+.header{
+    height: 82px; /* height of the background */
+    width: 100%; /* width of the background */
+    background: #FFFFFF; /* white background */
+    padding: 0 5%; /* padding of the background (R&L: 5%), (T&B: 0) */
+    position: relative; /* positioned relative to its normal position */
+}
+
+/* style of the nav bar elements */
+nav{
+    display: flex; /* To align the elements in auto width and auto height.*/
+}
+
+/* Yaqn logo style */
+.logo{
+    padding-top: 10px;
+    width: 123px; /* logo width size */
+}
+
+/* nav-link & list items style */
+.nav-links{
+    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    font-size: 13pt; /* size of the font */
+    font-family: 'DM Sans', sans-serif; /* font family for the list items */
+    font-weight: 420; /* font thickness */
+    margin-left: 40px; /* the space between the logo and first li */
+}
+
+.nav-links li{
+    display: inline-block; /* to display list items horizontally */
+    margin: 0 17px; /* space between list items */
+}
+
+.nav-links li a{
+    text-decoration: none; /* remove the underline */
+    color: #1A191E; /* text color of the list items */
+    padding: 5px 0; /* padding to click the item */
+}
+
+.nav-links li a:hover{
+    color: #62B2A1; /* color of hover */
+}
+
+/* nav-link-2 & list items style */
+.nav-links-2{
+    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    font-size: 13pt; /* size of the font */
+    font-family: 'DM Sans', sans-serif; /* font family for the list items */
+    font-weight: 420; /* font thickness */
+    margin-right: 10px; /* the space between the logo and first li */
+    position: absolute; /* absolute position */
+    right: 20px; /* right margin */
+}
+
+.nav-links-2 li{
+    display: inline-block; /* to display list items horizontally */
+    margin: 0 17px; /* space between list items */
+}
+
+.nav-links-2 li a{
+    text-decoration: none; /* remove the underline */
+    color: #1A191E; /* text color of the list items */
+    padding: 5px 0; /* padding to click the item */
+}
+
+#log a:hover{
+    color: #CE0000; /* color of hover */
+}
+
+#prof a:hover{
+    color: #62B2A1; /* color of hover */
+}
+/* end of header style*/
+body{
+    background: #F6F6F6; /* page background */
+}
 .form__input {
          width: 531px;
          border: none;
          border-bottom: 2px solid #45505C;
          font-size: 20px;
-         margin: 30px 10px 10px 455px;
+         margin: 30px 10px 10px 400px;
+    background: #F6F6F6;
 
 }
 
@@ -22,9 +106,7 @@
                 color: #FFFF;
                 font-family: 'DM Sans';
                 font-size: 22px;
-                 margin-left: 571px;
-                margin-right: 571px;
-                margin-top: 32px;
+    margin: 32px 480px 50px;
 }
 
 .form__button:hover {
@@ -33,8 +115,92 @@
 }
 
 .imgePerson{
-    margin-left: 665px;
-    margin-right: 665px;
+    margin-left: 590px;
+    margin-right: 590px;
     margin-bottom: 32px;
+    margin-top: 50px;
 }
 
+/* footer style */
+.footer{
+    height: 280px; /* height of the background */
+    width: 100%; /* width of the background */
+    background: #45505c; /* background color */
+    padding: 0 5%; /* padding of the background (R&L: 5%), (T&B: 0) */
+    position: relative; /* positioned relative to its normal position */
+}
+
+/* footer logo style */
+.Footerlogo{
+    width: 340px; /* logo width size */
+    position: absolute; /* absolute position */
+    bottom: 80px; /* bottom distance */
+}
+
+/* horizontal row style */
+hr{
+    width: 92%; /* hr width */
+    border: 0; /* no borders */
+    height: 1px; /* hr height */
+    background-image: linear-gradient(to right, rgba(1, 1, 1, 0), rgba(255, 255, 255, 0.75), rgba(1, 1, 1, 0)); /* style of hr */
+    position: absolute; /* absolute position */
+    bottom: 60px; /* bottom distance */
+}
+
+/* made by figma style */
+#madeBy {
+    margin-top: 222px; /* top margin */
+    display: flex; /* center */
+    justify-content: center; /* center */
+    font-family: 'DM Sans', sans-serif; /* font family */
+    color: #B7C1C2; /* text color */
+}
+
+/* footer nav style */
+.footernav {
+       display: flex; /* To align the elements in auto width and auto height.*/
+}
+
+/* footer-nav-links-1 & list items style */
+.footer-nav-links-1{
+    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    font-size: 15pt; /* size of the font */
+    font-family: 'DM Sans', sans-serif; /* font family for the list items */
+    margin-left: 40px; /* the space between the logo and first li */
+    position: absolute; /* absolute position */
+    bottom: 70px; /* bottom distance */
+    right: 380px; /* right distance */
+}
+
+.footer-nav-links-1 li {
+    display: block; /* to display list items horizontally */
+    margin: 17px 0px; /* space between list items */
+}
+
+.footer-nav-links-1 a{
+    text-decoration: none; /* remove the underline */
+    color: #B7C1C2; /* text color of the list items */
+    padding: 5px 0; /* padding to click the item */
+}
+
+/* footer-nav-links-2 & list items style */
+.footer-nav-links-2{
+    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    font-size: 15pt; /* size of the font */
+    font-family: 'DM Sans', sans-serif; /* font family for the list items */
+    margin-left: 40px; /* the space between the logo and first li */
+    position: absolute; /* absolute position */
+    bottom: 70px; /* bottom distance */
+    right: 170px; /* right distance */
+}
+
+.footer-nav-links-2 li {
+    display: block; /* to display list items horizontally */
+    margin: 17px 0px; /* space between list items */
+}
+
+.footer-nav-links-2 a{
+    text-decoration: none; /* remove the underline */
+    color: #B7C1C2; /* text color of the list items */
+    padding: 5px 0; /* padding to click the item */
+}
