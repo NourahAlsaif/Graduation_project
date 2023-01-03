@@ -19,10 +19,13 @@ nav{
     display: flex; /* To align the elements in auto width and auto height.*/
 }
 
+/* Yaqn logo style */
 .logo{
+    padding-top: 10px;
     width: 123px; /* logo width size */
 }
 
+/* nav-link & list items style */
 .nav-links{
     padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
     font-size: 13pt; /* size of the font */
@@ -31,7 +34,7 @@ nav{
     margin-left: 40px; /* the space between the logo and first li */
 }
 
-.nav-links li {
+.nav-links li{
     display: inline-block; /* to display list items horizontally */
     margin: 0 17px; /* space between list items */
 }
@@ -46,16 +49,18 @@ nav{
     color: #62B2A1; /* color of hover */
 }
 
+/* nav-link-2 & list items style */
 .nav-links-2{
     padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
     font-size: 13pt; /* size of the font */
     font-family: 'DM Sans', sans-serif; /* font family for the list items */
     font-weight: 420; /* font thickness */
     margin-right: 10px; /* the space between the logo and first li */
-    position: absolute;
-    right: 20px;}
+    position: absolute; /* absolute position */
+    right: 20px; /* right margin */
+}
 
-.nav-links-2 li {
+.nav-links-2 li{
     display: inline-block; /* to display list items horizontally */
     margin: 0 17px; /* space between list items */
 }
@@ -73,7 +78,6 @@ nav{
 #prof a:hover{
     color: #62B2A1; /* color of hover */
 }
-
 /* end of header style*/
 
 /* body and content style */
