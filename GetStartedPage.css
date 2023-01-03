@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 /* header style */
 .header{
     height: 82px; /* height of the background */
@@ -22,7 +21,7 @@ nav{
 
 /* Yaqn logo style */
 .logo{
-    padding-top: 10px;
+    padding-top: 10px; /* logo top padding */
     width: 123px; /* logo width size */
 }
 
@@ -52,23 +51,27 @@ nav{
 
 /* nav-link-2 & list items style */
 .nav-links-2{
-    padding: 20px 0px; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
-    font-weight: 420; /* font thickness */
-    margin-right: 10px; /* the space between the logo and first li */
+    padding: 20px 5px; /* padding of the nav-bar elements (T&B: 20px) (R&L: 0), to align middle the elements with nav-bar */
+    margin-right: 10px; /* the space between the button and right border of the page */
     position: absolute; /* absolute position */
     right: 20px; /* right margin */
 }
 
 .buttonLogin{
+    padding: 5px;
     width: 91px; /* button width */
     height: 42px; /* button height */
     background: #62B2A1; /* background color */
     border: none; /* no borders */
     border-radius: 6px; /* border radius */
-    color: #FFFFFF; /* white color for CHECK text */
-    font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
+    color: #FFFFFF; /* white color for Login text */
+    font-family: 'DM Sans', sans-serif; /* font family for Login text */
     font-size: 18px; /* font size */
-    color: #FFFFFF;
+}
+
+/* Login button hover style */
+.buttonLogin:hover {
+    background: #69B5A5; /* hover color */
 }
 
 .nav-links-2 li{
@@ -79,39 +82,37 @@ nav{
 .nav-links-2 li a{
     text-decoration: none; /* remove the underline */
     color: #FFFFFF; /* text color of the list items */
-    padding: 5px 0; /* padding to click the item */
+    padding: 6px 5; /* padding to click the item */
 }
+/* end of header style*/
 
-
+/* body style */
 body{
     background: #F6F6F6; /* page background */
 }
 
 .content{
-    margin-top: 50px; /* space between the H3 and header */
     margin-left: 145px; /* content left margin */
     margin-right: 120px; /* content right margin */
-    position: relative;
+    position: relative; /* relative position */
 }
 
 .container{
-    display: flex;
-    height: 600px ;
-    width: 1213px;
-    left: 102px;
-    top: 200px;
-    margin-top: 90px;
-/*    justify-content: space-between; */
+    display: flex; /* flex display */
+    height: 600px; /* container height */
+    width: 1213px; /* container width */
+    margin-top: 90px; /* top margin */
 }
 
+/* text style */
 .content h1{
-    margin-top: 90px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 60px;
+    margin-top: 90px; /* top margin for H1 */
+    font-family: 'DM Sans', sans-serif; /* font family */
+    font-size: 60px; /* font size */
 }
 
+/* Get Started button style */
 .button{
-    padding: 0px;
     width: 148px; /* button width */
     height: 48px; /* button height */
     background: #1A191E; /* background color */
@@ -120,10 +121,11 @@ body{
     color: #FFFFFF; /* white color for CHECK text */
     font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
     font-size: 17px; /* font size */
-    position: absolute;
-    margin-top: 280px;
+    position: absolute; /* absolute position */
+    margin-top: 280px; /* top margin */
 }
 
+/* Get started link properties and style */
 .link:visited, .link:active, .link:link{
     color: #FFFFFF;
     text-decoration: none;
@@ -135,13 +137,14 @@ body{
     background: #62B2A1; /* hover color */
 }
 
+/* fake image style */
 .bottom-image{
-    width: 568px;
-    height: 202px;
-    margin-right: 20px;
-    position: absolute;
-    right: 0px;
-    top:120px;
+    width: 568px; /* image width */
+    height: 202px; /* image height */
+    margin-right: 20px; /* right margin */
+    position: absolute; /* absolute position */
+    right: 0px; /* right position */
+    top:120px; /* top distance */
 }
 
 /* footer style */
