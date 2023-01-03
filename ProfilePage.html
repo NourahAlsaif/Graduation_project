@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <!-- head -->
@@ -9,8 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- page title and icon -->
-    <link rel="icon" href="images/Q-7.svg">
-    <title>News Detection</title>
+    <link rel="icon" href="images/Q7.svg">
+    <title>Profile</title>
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,15 +18,12 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@500&display=swap" rel="stylesheet">
 
     <!-- link to CSS file -->
-    <link rel="stylesheet" href="NewsDetection.css">
+    <link rel="stylesheet" href="ProfilePage.css">
 </head>
 
 <!-- body -->
 <body>
-    <!-- link to JS file -->
-    <script src="main.js"></script>
-
-    <!-- page header -->
+   <!-- page header -->
     <div class="header">
         <!-- header nav list -->
         <nav>
@@ -34,57 +31,48 @@
             <!-- nav-list-1 items with their links -->
             <ul class="nav-links">
                 <li><a href="Home%20page.html">Home</a></li>
-                <li><a href="NewsDetection.html"><font color="#62B2A1">News detection</font></a></li>
+                <li><a href="NewsDetection.html">News detection</a></li>
                 <li><a href="ReportFakeNews.html">Report fake news</a></li>
             </ul>
 
             <!-- nav-list-2 items with their links -->
             <ul class="nav-links-2">
-                <li id="prof"><a href="ProfilePage.html">Profile</a></li>
+                <li id="prof"><a href="ProfilePage.html"><font color="#62B2A1">Profile</font></a></li>
                 <li id="log"><a href="GetStartedPage.html">Log Out</a></li>
             </ul>
         </nav>
     </div>
 
-
     <!-- page content -->
     <div class="content">
-        <!-- News detection title -->
-        <H3>News detection</H3>
 
-        <!-- input form -->
+        <!-- avatar -->
+        <div class="avatar">
+            <img src="images/avatar.svg" alt="" width="110px" height="110.02px">
+        </div>
+
+        <!-- container -->
         <form>
-            <div class="SourceName">
-                <!-- source name input field -->
-                <input type="text" placeholder="Write the source name" class="textSource" id="textSource">
-
-                <!-- source icon -->
-                <div class="imageSource">
-                    <img src="images/globe.asia.australia.svg" width="25" height="25">
-                </div>
-
-                <!-- news input field -->
-                <textarea placeholder="Paste text here or upload an image" name ="newsInputText" rows="12" cols="131"></textarea>
-
-                <!-- text icon -->
-                <div class="imageText">
-                    <img src="images/TextFormatting.svg" width="25" height="25" id="imageText">
-                </div>
-
-                <!-- limit of the words -->
-                <p id="number"> 0/500 </p>
+        <div class="container">
+            <!-- first name -->
+            <div class="firstNameField">
+                <input type="text" class="profileInput" placeholder="First name">
             </div>
 
-            <!-- submit button -->
-            <button type="submit" class="button"> Check </button>
+            <!-- last name -->
+            <div class="lastNameField">
+                <input type="text" class="profileInput" placeholder="Last name">
+            </div>
+
+            <!-- email -->
+            <div class="emailField">
+                <input type="Email" class="profileInput" placeholder="Email">
+            </div>
+
+            <button class="updateButton" type="submit">Update</button>
+        </div>
         </form>
     </div>
-
-    <!-- report fake news hypertext -->
-    <u>
-        <a href="Report%20fake%20news%20page.html"> Report fake news </a>
-    </u>
-
     <!-- page footer -->
         <div class="footer">
             <img src="images/footer.svg" class="Footerlogo">
@@ -96,7 +84,7 @@
                 <ul class="footer-nav-links-1">
                     <li> <font color="#ffffff"> Services </font> </li>
                     <li><a href="NewsDetection.html"> Detection </a></li>
-                    <li><a href="ReportFakeNews.html"> Report </a></li>
+                    <li><a href="Report%20fake%20news%20page.html"> Report </a></li>
                 </ul>
 
                 <!-- nav-list-2 items with their links -->

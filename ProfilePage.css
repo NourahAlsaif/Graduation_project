@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* header style */
 .header{
     height: 82px; /* height of the background */
@@ -20,7 +21,7 @@ nav{
 
 /* Yaqn logo style */
 .logo{
-    padding-top: 10px;
+    padding-top: 10px; /* top padding */
     width: 123px; /* logo width size */
 }
 
@@ -78,48 +79,68 @@ nav{
     color: #62B2A1; /* color of hover */
 }
 /* end of header style*/
+
+/* body style */
 body{
     background: #F6F6F6; /* page background */
 }
-.form__input {
-         width: 531px;
-         border: none;
-         border-bottom: 2px solid #45505C;
-         font-size: 20px;
-         margin: 30px 10px 10px 400px;
-    background: #F6F6F6;
 
+/* style of the content */
+.content{
+    margin-top: 100px; /* space between the H3 and header */
+    margin-left: 143px; /* content left margin */
+    margin-right: 140px; /* content right margin */
 }
 
-.form__input:focus {
-          outline:none;
-          border-bottom: 2px solid #62B2A1;
+/* container style */
+
+/* avatar style */
+.avatar{
+    margin: 50px 590px 32px;
 }
 
-.form__button {
-                width: 296px;
-                height: 48px;
-
-                background: #1A191E;
-                border: none;
-                border-radius: 6px;
-                color: #FFFF;
-                font-family: 'DM Sans';
-                font-size: 22px;
-    margin: 32px 480px 50px;
+/* data filed style */
+.profileInput{
+    width: 530px; /* box width */
+    border: none; /* no borders */
+    border-bottom: 2px solid #45505C; /* only keep the bottom border */
+    font-size: 20px; /* text size */
+    margin: 33px 10px 10px 385px; /* fields margin */
+    background: #F6F6F6; /* background color of the box */
 }
 
-.form__button:hover {
-                 border: none;
-                background: #62B2A1;
+/* style of the placeholders */
+::placeholder{
+    color: #999999; /* placeholder text color */
+    font-family: 'DM Sans', sans-serif; /* font family for the placeholder */
+    font-size: 20px; /* size of the font */
 }
 
-.imgePerson{
-    margin-left: 590px;
-    margin-right: 590px;
-    margin-bottom: 32px;
-    margin-top: 50px;
+/* box style in focus */
+.profileInput:focus{
+    outline: none; /* no borders */
+    border-bottom: 2px solid #45505c; /* only keep the bottom border */
 }
+
+/* update button style */
+.updateButton{
+    width: 296px; /* button width */
+    height: 48px; /* button height */
+    background: #1A191E; /* button background */
+    border: none; /* no borders */
+    border-radius: 6px; /* border radius */
+    color: #FFFF; /* text color */
+    font-family: 'DM Sans'; /* font family */
+    font-size: 22px; /* font size */
+    display: block; /* to center the button */
+    margin: 50px auto 180px; /* button margin */
+}
+
+.updateButton:hover {
+    border: none; /* no borders*/
+    background: #62B2A1; /* change color */
+}
+/* end of body style */
 
 /* footer style */
 .footer{
@@ -149,7 +170,7 @@ hr{
 
 /* made by figma style */
 #madeBy {
-    margin-top: 222px; /* top margin */
+    margin-top: 240px; /* top margin */
     display: flex; /* center */
     justify-content: center; /* center */
     font-family: 'DM Sans', sans-serif; /* font family */
