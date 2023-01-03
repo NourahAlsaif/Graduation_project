@@ -11,28 +11,21 @@
 </head>
 <body style="background-color: #F6F6F6">
    <section id="nav-bar">
-<nav class="navbar navbar-expand-lg navbar-light-color">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="images/HeaderLogo.png"/></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="NewsDetection.html">News detection</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Report%20fake%20news%20page.html">Report fake news</a>
-        </li>
-      </ul>
-        <img src="images/avatarWithArrow.svg" class="avatar">
+<div class="header">
+        <nav>
+            <img src="images/YaqnLogoSVG.svg" class="logo">
+            <ul class="nav-links">
+                <li><a href="Home%20page.html"><font color="#62B2A1">Home</font></a></li>
+                <li><a href="NewsDetection.html"> News detection </a></li>
+                <li><a href="Report%20fake%20news%20page.html">Report fake news</a></li>
+            </ul>
+
+            <ul class="nav-links-2">
+                <li id="prof"> <a href="Profile%20page.html">Profile</a></li>
+                <li id="log"> <a href="Get%20started%20page.html">Log Out</a></li>
+            </ul>
+        </nav>
     </div>
-  </div>
-</nav>
    </section>
     <section id="banner">
         <div class="container">
@@ -40,7 +33,7 @@
                 <h1 style="color: #1A191E"><span style="color:#62B2A1;">Validate</span> any news, <br/> within seconds!</h1>
             </div>
             <div class="right">
-                <img src="images/FakeLogo.png" class="bottom-image">
+                <img src="images/FakeLogo.svg" class="bottom-image">
                   </div>
             </div>
         </div>
@@ -48,20 +41,20 @@
 
         <section class="services-section">
             <div class="Services-section">
-            <h2 class="light" style="color: #62B2A1">Services</h2>
+            <h1 class="light" style="color: #62B2A1">Services</h1>
                 <div class="services-cards">
                     <div class="services-card">
                         <div class="info">
                             <h4 style="color: #1A191E">News detection</h4>
-                            <p style="font-weight:500 color: #1A191E" >Using ML algorithms, you can attach any news and it will detect its credibility!</p>
-                            <div><img src="images/NewsDetection.png"/></div>
+                            <p>Using ML algorithms, you can attach any <br/> news and it will detect its credibility!</p>
+                            <div><img src="images/NewsDetection.svg"/></div>
                         </div>
                     </div>
-                     <div class="services-card">
+                     <div class="services-cardd">
                         <div class="info">
                             <h4 style="color: #1A191E">Reprot fake news</h4>
-                            <p style="color: #1A191E">Help us abd the community throughout reporting a fake news. </p>
-                             <div><img src="images/ReportLogo.png"/></div>
+                            <p style="color: #1A191E">Help us abd the community throughout <br/> reporting a fake news. </p>
+                             <div><img src="images/ReportLogo.svg"/></div>
                         </div>
                     </div>
                 </div>
@@ -69,10 +62,10 @@
         </section>
                 <section class="aboutus-section">
             <div class="aboutus-Section">
-            <h2 class="light" style="color: #62B2A1">About us</h2>
+            <h1 class="light" style="color: #62B2A1">About us</h1>
                 <div class="services-cards">
                     <div class="services-card">
-                        <img src="images/HeaderLogo.png"/>
+                        <img src="images/YaqnLogoSVG.svg"/>
                         <div class="info">
                             <p style="color: #1A191E">is a graduation project for a group of students at Princess Nourah University. It is a fake news detection system using machine learning (ML) algorithms.
                             Yaqn aims to contribute to limit the spread of fake news by providing two essential services</p>
@@ -83,7 +76,7 @@
                 </section>
         <section class="ourteam-section">
             <div class="Ourteam-section">
-            <h2 class="light" style="color: #62B2A1">Our Team</h2>
+            <h1 class="light" style="color: #62B2A1">Our Team</h1>
                 <div class="services-cards">
                     <div class="services-card">
                         <div class="info">
@@ -102,6 +95,33 @@
                 </div>
             </div>
                 </section>
+   <div class="footer">
+            <img src="images/footer.svg" class="Footerlogo">
+
+            <!-- footer nav lists -->
+            <nav class="footernav">
+
+                <!-- nav-list-1 items with their links -->
+                <ul class="footer-nav-links-1">
+                    <li> <font color="#ffffff"> Services </font> </li>
+                    <li><a href="NewsDetection.html"> Detection </a></li>
+                    <li><a href="Report%20fake%20news%20page.html"> Report </a></li>
+                </ul>
+
+                <!-- nav-list-2 items with their links -->
+                 <ul class="footer-nav-links-2">
+                    <li> <font color="#ffffff"> Contact </font> </li>
+                    <li><a href="#"> Email </font> </a></li>
+                    <li><a href="#"> Twitter </a></li>
+                </ul>
+            </nav>
+
+            <!-- horizontal row -->
+            <hr>
+
+            <!-- made by figma text -->>
+            <p id="madeBy"> Made by&nbsp<font color ="#62B2A1">Genius</font> </p>
+        </div>
 </div>
 </body>
 </html>

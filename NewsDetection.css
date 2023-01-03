@@ -19,10 +19,13 @@ nav{
     display: flex; /* To align the elements in auto width and auto height.*/
 }
 
+/* Yaqn logo style */
 .logo{
+    padding-top: 10px;
     width: 123px; /* logo width size */
 }
 
+/* nav-link & list items style */
 .nav-links{
     padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
     font-size: 13pt; /* size of the font */
@@ -31,7 +34,7 @@ nav{
     margin-left: 40px; /* the space between the logo and first li */
 }
 
-.nav-links li {
+.nav-links li{
     display: inline-block; /* to display list items horizontally */
     margin: 0 17px; /* space between list items */
 }
@@ -46,16 +49,18 @@ nav{
     color: #62B2A1; /* color of hover */
 }
 
+/* nav-link-2 & list items style */
 .nav-links-2{
     padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
     font-size: 13pt; /* size of the font */
     font-family: 'DM Sans', sans-serif; /* font family for the list items */
     font-weight: 420; /* font thickness */
     margin-right: 10px; /* the space between the logo and first li */
-    position: absolute;
-    right: 20px;}
+    position: absolute; /* absolute position */
+    right: 20px; /* right margin */
+}
 
-.nav-links-2 li {
+.nav-links-2 li{
     display: inline-block; /* to display list items horizontally */
     margin: 0 17px; /* space between list items */
 }
@@ -73,7 +78,6 @@ nav{
 #prof a:hover{
     color: #62B2A1; /* color of hover */
 }
-
 /* end of header style*/
 
 /* body and content style */
@@ -98,7 +102,7 @@ h3{
 }
 
 /* style of the placeholders */
-::placeholder {
+::placeholder{
     color: #C5C5C7; /* placeholder text color */
     position: absolute; /* position of the placeholder */
     font-family: 'DM Sans', sans-serif; /* font family for the placeholder */
@@ -120,7 +124,7 @@ h3{
 }
 
 /* style of the news input box */
-textarea {
+textarea{
     width: 100%; /* to make the two boxes the same width */
     padding: 16px 40px; /* padding of the first text field (box) */
     margin-top: 35px; /* the space between the two boxes */
@@ -136,16 +140,15 @@ textarea {
 
 /* style of the source icon */
 .imageSource{
-    margin-left: 97%;
-    margin-top: -40px;
-    background-color:#F6F6F6;
+    margin-left: 97%; /* left margin */
+    margin-top: -40px; /* top margin */
 }
 
 /* style of the text icon */
-.imageText {
-    position: absolute;
-    top: 322px;
-    right: 154px;
+.imageText{
+    position: absolute; /* absolute position */
+    top: 322px; /* top distance */
+    right: 154px; /* right distance */
 }
 
 /* 0/500 style */
@@ -153,8 +156,8 @@ textarea {
     font-family: 'Tajawal', sans-serif; /* font family */
     color: #9A9A9B; /* text color */
     font-size: 18px; /* font size */
-    position: absolute;
-    top: 585px;
+    position: absolute; /* absolute position */
+    top: 585px; /* top distance */
     padding: 0px 40px; /* padding of the source input box */
 }
 
@@ -193,51 +196,57 @@ u a{
 U a:hover {
     color: #62B2A1; /* hover color */
 }
+/* end of body and content style */
 
 /* footer style */
 .footer{
     height: 280px; /* height of the background */
     width: 100%; /* width of the background */
-    background: #45505c; /* white background */
+    background: #45505c; /* background color */
     padding: 0 5%; /* padding of the background (R&L: 5%), (T&B: 0) */
     position: relative; /* positioned relative to its normal position */
 }
 
+/* footer logo style */
 .Footerlogo{
     width: 340px; /* logo width size */
-    position: absolute;
-    bottom: 80px;
+    position: absolute; /* absolute position */
+    bottom: 80px; /* bottom distance */
 }
 
-hr {
-    width: 92%;
-     border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(1, 1, 1, 0), rgba(255, 255, 255, 0.75), rgba(1, 1, 1, 0));
-    position: absolute;
-    bottom: 60px;
+/* horizontal row style */
+hr{
+    width: 92%; /* hr width */
+    border: 0; /* no borders */
+    height: 1px; /* hr height */
+    background-image: linear-gradient(to right, rgba(1, 1, 1, 0), rgba(255, 255, 255, 0.75), rgba(1, 1, 1, 0)); /* style of hr */
+    position: absolute; /* absolute position */
+    bottom: 60px; /* bottom distance */
 }
 
+/* made by figma style */
 #madeBy {
-    margin-top: 240px;
+    margin-top: 222px; /* top margin */
     display: flex; /* center */
     justify-content: center; /* center */
-    font-family: 'DM Sans', sans-serif;
-    color: #B7C1C2;
+    font-family: 'DM Sans', sans-serif; /* font family */
+    color: #B7C1C2; /* text color */
 }
 
+/* footer nav style */
 .footernav {
        display: flex; /* To align the elements in auto width and auto height.*/
 }
 
+/* footer-nav-links-1 & list items style */
 .footer-nav-links-1{
     padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
     font-size: 15pt; /* size of the font */
     font-family: 'DM Sans', sans-serif; /* font family for the list items */
     margin-left: 40px; /* the space between the logo and first li */
-    position: absolute;
-    bottom: 70px;
-    right: 380px;
+    position: absolute; /* absolute position */
+    bottom: 70px; /* bottom distance */
+    right: 380px; /* right distance */
 }
 
 .footer-nav-links-1 li {
@@ -251,14 +260,15 @@ hr {
     padding: 5px 0; /* padding to click the item */
 }
 
+/* footer-nav-links-2 & list items style */
 .footer-nav-links-2{
     padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
     font-size: 15pt; /* size of the font */
     font-family: 'DM Sans', sans-serif; /* font family for the list items */
     margin-left: 40px; /* the space between the logo and first li */
-    position: absolute;
-    bottom: 70px;
-    right: 170px;
+    position: absolute; /* absolute position */
+    bottom: 70px; /* bottom distance */
+    right: 170px; /* right distance */
 }
 
 .footer-nav-links-2 li {
@@ -271,4 +281,3 @@ hr {
     color: #B7C1C2; /* text color of the list items */
     padding: 5px 0; /* padding to click the item */
 }
-
