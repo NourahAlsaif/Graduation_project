@@ -71,7 +71,7 @@ nav{
 
 /* Login button hover style */
 .buttonLogin:hover {
-    background: #69B5A5; /* hover color */
+    background: #69B5A6;
 }
 
 .nav-links-2 li{
@@ -82,7 +82,7 @@ nav{
 .nav-links-2 li a{
     text-decoration: none; /* remove the underline */
     color: #FFFFFF; /* text color of the list items */
-    padding: 6px 5; /* padding to click the item */
+    padding: 6px 5px; /* padding to click the item */
 }
 /* end of header style*/
 
