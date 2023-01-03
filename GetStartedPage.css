@@ -80,6 +80,61 @@ nav{
 }
 /* end of header style*/
 
+body{
+    background: #F6F6F6; /* page background */
+}
+
+.content{
+    margin-top: 50px; /* space between the H3 and header */
+    margin-left: 143px; /* content left margin */
+    margin-right: 140px; /* content right margin */
+    position: relative;
+}
+
+.container{
+    display: flex;
+    height: 400px ;
+    width: 1213px;
+    left: 102px;
+    top: 200px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px;
+}
+
+.button{
+    width: 150px; /* button width */
+    height: 48px; /* button height */
+    background: #1A191E; /* background color */
+    border: none; /* no borders */
+    border-radius: 6px; /* border radius */
+    color: #FFFFFF; /* white color for CHECK text */
+    font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
+    font-size: 15px; /* font size */
+    display: inline; /* to center the button */
+    position: absolute;
+    bottom: 30px;
+}
+
+/* button hover style */
+.button:hover{
+    border: none; /* no borders */
+    background: #62B2A1; /* hover color */
+}
+
+.bottom-image{
+    width: 568px;
+    height: 202px;
+    margin-right: 20px;
+    position: absolute;
+right: 30px;
+    top:100px;
+}
 
 /* footer style */
 .footer{
