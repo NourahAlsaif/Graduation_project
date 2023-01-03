@@ -25,30 +25,6 @@ nav{
     width: 123px; /* logo width size */
 }
 
-/* nav-link & list items style */
-.nav-links{
-    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
-    font-size: 13pt; /* size of the font */
-    font-family: 'DM Sans', sans-serif; /* font family for the list items */
-    font-weight: 420; /* font thickness */
-    margin-left: 40px; /* the space between the logo and first li */
-}
-
-.nav-links li{
-    display: inline-block; /* to display list items horizontally */
-    margin: 0 17px; /* space between list items */
-}
-
-.nav-links li a{
-    text-decoration: none; /* remove the underline */
-    color: #1A191E; /* text color of the list items */
-    padding: 5px 0; /* padding to click the item */
-}
-
-.nav-links li a:hover{
-    color: #62B2A1; /* color of hover */
-}
-
 /* nav-link-2 & list items style */
 .nav-links-2{
     padding: 20px 5px; /* padding of the nav-bar elements (T&B: 20px) (R&L: 0), to align middle the elements with nav-bar */
@@ -185,28 +161,6 @@ hr{
 /* footer nav style */
 .footernav {
        display: flex; /* To align the elements in auto width and auto height.*/
-}
-
-/* footer-nav-links-1 & list items style */
-.footer-nav-links-1{
-    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
-    font-size: 15pt; /* size of the font */
-    font-family: 'DM Sans', sans-serif; /* font family for the list items */
-    margin-left: 40px; /* the space between the logo and first li */
-    position: absolute; /* absolute position */
-    bottom: 70px; /* bottom distance */
-    right: 380px; /* right distance */
-}
-
-.footer-nav-links-1 li {
-    display: block; /* to display list items horizontally */
-    margin: 17px 0px; /* space between list items */
-}
-
-.footer-nav-links-1 a{
-    text-decoration: none; /* remove the underline */
-    color: #B7C1C2; /* text color of the list items */
-    padding: 5px 0; /* padding to click the item */
 }
 
 /* footer-nav-links-2 & list items style */
