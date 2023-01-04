@@ -78,7 +78,7 @@ nav{
 #prof a:hover{
     color: #62B2A1; /* color of hover */
 }
-/* end of header style*/
+/* end of header style */
 
 /* body and content style */
 body{
@@ -226,7 +226,7 @@ hr{
 
 /* made by figma style */
 #madeBy {
-    margin-top: 222px; /* top margin */
+    margin-top: 240px; /* top margin */
     display: flex; /* center */
     justify-content: center; /* center */
     font-family: 'DM Sans', sans-serif; /* font family */
