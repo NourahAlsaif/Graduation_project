@@ -122,32 +122,55 @@ display: flex;
     gap: 116px;
 }
 /* Detection news page box and photo design */
-.Services-section .services-card{
+.button{
     width: 560px;
     height: 222.68px;
     left: 0px;
-    top: 43px;
+    top: 33px;
+    background: #FFFFFF;
     box-shadow: 0px 16px 40px rgba(112,144,176,0.2);
+    border: none;
     border-radius: 20px;
+    text-align: left;
+}
+.Services-section .services-card .button .link{
+    color: #1A191E;
+    text-decoration: none;
+}
+.Services-section .services-card .link h4{
+    margin-top: 20px;
 }
 .Services-section .services-card img{
     margin-left: 410px;
-    margin-top: -120px;
+    margin-top: -195px;
     transform: matrix(0.99,-0.14,-0.14,0.99,0,0);
 }
+.button:hover{
+    border: none;
+    color: #62B2A1;
+}
 /* Report page box and photo design */
-.Services-section .services-cardd{
+.Services-section .services-cardd .button{
+    background: #FFFFFF;
     width: 560px;
     height: 222.68px;
     left: 0px;
     top: 43px;
     box-shadow: 0px 16px 40px rgba(112,144,176,0.2);
+    border: none;
     border-radius: 20px;
+}
+.Services-section .services-cardd .button .link{
+    color: #1A191E;
+    text-decoration: none;
+}
+.Services-section .services-cardd .link h4{
+    margin-top: 20px;
 }
 .Services-section .services-cardd img{
     position: absolute;
      margin-left: 400px;
-    margin-top: -95px;
+    margin-top: -150px;
      transform: matrix(0.99,-0.13,0.14,0.99,0,0);
 }
 .info h4 {
@@ -176,7 +199,8 @@ display: flex;
 
 }
 .aboutus-Section .services-cards{
-     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
+    background: #FFFFFF;
+    box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
     border-radius: 10px;
     width: 1236px;
     height: 220px;
@@ -221,6 +245,7 @@ display: flex;
     margin-left: 110px;
 }
 .Ourteam-section .ourteam-cardk{
+    background: #FFFFFF;
      box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
     border-radius: 10px;
     width: 280px;
@@ -250,6 +275,7 @@ display: flex;
     margin-bottom: 90px;
 }
 .Ourteam-section .ourteam-cardrr{
+    background: #FFFFFF;
      box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
     border-radius: 10px;
     width: 280px;
@@ -283,6 +309,7 @@ display: flex;
 
 }
 .Ourteam-section .ourteam-cardtt{
+    background: #FFFFFF;
      box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
     border-radius: 10px;
     width: 280px;
@@ -316,6 +343,7 @@ display: flex;
     margin-top: -100px;
 }
 .Ourteam-section .ourteam-cardnn{
+    background: #FFFFFF;
      box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
     border-radius: 10px;
     width: 280px;
@@ -350,6 +378,7 @@ display: flex;
     margin-top: -620px;
 }
 .Ourteam-section .ourteam-cardaa{
+    background: #FFFFFF;
      box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
     border-radius: 10px;
     width: 280px;
