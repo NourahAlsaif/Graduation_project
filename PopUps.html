@@ -10,7 +10,7 @@
 
     <!-- page title and icon -->
     <link rel="icon" href="images/Q7.svg">
-    <title>News Detection</title>
+    <title>Fake news News Detection</title>
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@500&display=swap" rel="stylesheet">
 
     <!-- link to CSS file -->
-    <link rel="stylesheet" href="NewsDetection.css">
+    <link rel="stylesheet" href="PopUps.css">
 
     <!-- link to font awesome for the arrow icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -80,9 +80,41 @@
             </div>
 
             <!-- submit button -->
-           <button type="submit" class="button"> Check </button>
+            <button type="submit" class="button"> Check </button>
         </form>
 
+            <!-- pop-up section -->
+            <!-- fake pop-up -->
+            <div class="pop-up" id="pop-up-fake">
+                <a href="NewsDetection.html"><i class="fa-solid fa-xmark"></i></a>
+                <img class="popupImage" src="images/fakeNews.svg" width="380" height="382">
+                <h3>Fake News</h3>
+                <p>Be careful, don't believe this</p>
+            </div>
+
+            <!-- real pop-up -->
+            <div class="pop-up" id="pop-up-real">
+                <a href="NewsDetection.html"><i class="fa-solid fa-xmark"></i></a>
+                <img class="popupImage" src="images/realNews.svg" width="380" height="382">
+                <h3>Real News</h3>
+                <p>Don't worry, this news is true</p>
+            </div>
+
+            <!-- wrong pop-up -->
+            <div class="pop-up" id="pop-up-wrong">
+                <a href="NewsDetection.html"><i class="fa-solid fa-xmark"></i></a>
+                <img class="popupImage" src="images/wrong.svg" width="380" height="382">
+                <h3>Something went wrong</h3>
+                <p>Please try again</p>
+            </div>
+
+         <!-- thanks for reporting pop-up -->
+            <div class="pop-up" id="pop-up-thanks">
+                <a href="ReportFakeNews.html"><i class="fa-solid fa-xmark"></i></a>
+                <img class="popupImage" src="images/thanks.svg" width="380" height="382">
+                <h3>Thank you</h3>
+                <p>for reporting us</p>
+            </div>
 
     </div>
 
