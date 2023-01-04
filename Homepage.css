@@ -114,15 +114,12 @@ display: flex;
 }
 .Services-section{
  padding: 80px 0;
-    margin-left: 115px;
+    margin-left: 130px;
 }
 
 .Services-section .services-cards{
     display: flex;
     gap: 116px;
-}
-.Services-section{
-    margin-right: 25px;
 }
 /* Detection news page box and photo design */
 .button{
@@ -200,7 +197,7 @@ display: flex;
 }
 .aboutus-Section{
  padding: 80px 0;
-    margin-left: 115px;
+    margin-left: 130px;
     font-family: "DM Sans";
     font-weight: 500;
     font-size: 18px;
@@ -244,7 +241,7 @@ display: flex;
 /* OUR TEAM SECTION */
 .Ourteam-section{
     padding: 80px 0;
-    margin-left: 115px;
+    margin-left: 130px;
     margin-bottom: 300px;
     margin-top: 90px;
 }
