@@ -127,7 +127,7 @@ h3{
 .box {
     width: 100%; /* to make the two boxes the same width */
     padding: 16px 40px; /* padding of the first text field (box) */
-    margin-top: 35px; /* the space between the two boxes */
+    margin-top: 25px; /* the space between the two boxes */
     margin-bottom: 25px; /* the space between the box and button */
     border: none; /* no borders for the second box */
     border-radius: 10px; /* border radius of the second box */
@@ -141,9 +141,9 @@ h3{
 
 /* style of the source icon */
 .imagelink{
-    margin-left: 97%;
-    margin-top: -40px;
-    background-color:#F6F6F6;
+    position: absolute;
+    top: 248px; /* top distance */
+    right: 154px; /* right distance */
 }
 
 /* container style */
