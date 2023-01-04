@@ -95,11 +95,11 @@ body{
 }
 .container{
 display: flex;
-    height: 202px ;
+    height: 220px ;
     width: 1213px;
-    left: 102px;
-    top: 286px;
-    margin-top: 100px;
+    top: 90px;
+    margin-top: 150px;
+    margin-left: 120px;
     align-items: center;
     justify-content: space-between;
 }
@@ -121,17 +121,21 @@ display: flex;
     display: flex;
     gap: 116px;
 }
+.Services-section{
+    margin-right: 25px;
+}
 /* Detection news page box and photo design */
 .button{
-    width: 560px;
+    width: 540px;
     height: 222.68px;
     left: 0px;
     top: 33px;
     background: #FFFFFF;
     box-shadow: 0px 16px 40px rgba(112,144,176,0.2);
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: left;
+    margin-right: 30px;
 }
 .Services-section .services-card .button .link{
     color: #1A191E;
@@ -142,8 +146,8 @@ display: flex;
 }
 .Services-section .services-card img{
     margin-left: 410px;
-    margin-top: -195px;
-    transform: matrix(0.99,-0.14,-0.14,0.99,0,0);
+    margin-top: -190px;
+   /* transform: matrix(0.99,-0.14,-0.14,0.99,0,0); */
 }
 .button:hover{
     border: none;
@@ -152,13 +156,14 @@ display: flex;
 /* Report page box and photo design */
 .Services-section .services-cardd .button{
     background: #FFFFFF;
-    width: 560px;
+    width: 540px;
     height: 222.68px;
     left: 0px;
     top: 43px;
     box-shadow: 0px 16px 40px rgba(112,144,176,0.2);
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-left: 50px;
 }
 .Services-section .services-cardd .button .link{
     color: #1A191E;
@@ -173,9 +178,9 @@ display: flex;
 }
 .Services-section .services-cardd img{
     position: absolute;
-     margin-left: 400px;
-    margin-top: -150px;
-     transform: matrix(0.99,-0.13,0.14,0.99,0,0);
+     margin-left: 420px;
+    margin-top: -140px;
+    /* transform: matrix(0.99,-0.13,0.14,0.99,0,0); */
 }
 .info h4 {
     margin-top: 60px;
@@ -189,7 +194,6 @@ display: flex;
     color: #1A191E;
 }
 /* ABOUT US SECTION */
-
 .aboutus-Section h1{
     margin-top: 90px;
     margin-bottom: 30px;
@@ -204,9 +208,10 @@ display: flex;
 }
 .aboutus-Section .services-cards{
     background: #FFFFFF;
-    box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
+    box-shadow: 0px 16px 70px rgba(112,144,176,0.3);
     border-radius: 10px;
-    width: 1236px;
+    margin-right: 20px;
+    width: 1280px;
     height: 220px;
 }
 .aboutus-Section .services-card img{
@@ -245,15 +250,17 @@ display: flex;
 }
 .Ourteam-cards{
     margin-top: 40px;
+    margin-right: 20px;
 }
 /* Start of Dr.kashish info */
 .Ourteam-section .Ourteam-cards img{
-    margin-left: 110px;
+    margin-left: 120px;
 }
 .Ourteam-section .ourteam-cardk{
     background: #FFFFFF;
      box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
     border-radius: 10px;
+    margin-left: 20px;
     width: 280px;
     height: 119px;
 }
@@ -309,7 +316,7 @@ display: flex;
 }
 /* start Tasneem info  */
 .Ourteam-section .Ourteam-cardt img{
-    margin-left: 360px;
+    margin-left: 370px;
     margin-bottom: 40px;
     margin-top: -820px;
 
@@ -320,7 +327,7 @@ display: flex;
     border-radius: 10px;
     width: 280px;
     height: 119px;
-    margin-left: 250px;
+    margin-left: 260px;
     /*margin-bottom: 20px;*/
     margin-top: -400px;
 }
@@ -379,7 +386,7 @@ display: flex;
 }
 /* start Amal info  */
 .Ourteam-section .Ourteam-carda img{
-    margin-left: 340px;
+    margin-left: 350px;
     margin-bottom: 40px;
     margin-top: -620px;
 }
@@ -390,7 +397,7 @@ display: flex;
     width: 280px;
     height: 119px;
     top: 45.87%;
-    margin-left: 230px;
+    margin-left: 240px;
     /*margin-bottom: 100px; */
     margin-top: -300px;
 }
