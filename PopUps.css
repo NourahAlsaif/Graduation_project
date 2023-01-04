@@ -199,6 +199,88 @@ U a:hover {
 }
 /* end of body and content style */
 
+/* pop-up-model style */
+.pop-up{
+    width: 480px; /* width */
+    height: 570px; /* height */
+    background: #FFFFFF; /* white background */
+    border-radius: 10px; /* border radius */
+    position: absolute; /* absolute position */
+    top: 54%; /* top distance */
+    left: 50%; /* top left */
+    transform: translate(-50%, -50%); /* position of the pop up*/
+    text-align: center; /* text alignment */
+    padding: 0 30px 30px; /* padding */
+    filter: drop-shadow(-20px 20px 40px rgba(177, 170, 168, 0.48)); /* box shadow */
+    font-family: 'DM Sans', sans-serif; /* font family */
+}
+
+/* pop up image style */
+.popupImage{
+    right: 0px; /* right position */
+    top:-1px; /* top position */
+    position: absolute; /* absolute position */
+    border-radius: 13px; /* border radius */
+}
+
+/* h3 style for all popups */
+.pop-up h3{
+    position: absolute; /* absolute position */
+    left: 20%; /* left position */
+    right: 20%; /* right position */
+    top: 71.5%; /* top position */
+    bottom: 20.19%; /* bottom position */
+    font-size: 50px; /* font size */
+}
+
+/* h3 style for wrong pop up */
+#pop-up-wrong h3 {
+    font-size: 33px; /* font size */
+    left: 10%; /* left position */
+    right: 10%; /* right position */
+    top: 75%; /* top position */
+    bottom: 20.19%; /* bottom position */
+}
+
+/* popup paragraph style */
+.pop-up p{
+    position: absolute; /* absolute position */
+    color: #A2A7AD; /* font color */
+    left: 12.99%; /* left position */
+    right: 12.99%; /* right position */
+    top: 85.1%; /* top position */
+    bottom: 13.57%; /* bottom position */
+    font-family: 'DM Sans'; /* font family */
+    font-style: normal; /* font style */
+    font-weight: 400; /* font weight */
+    font-size: 22px; /* font size */
+    line-height: 110%; /* line height */
+}
+
+/* cross style */
+.pop-up i{
+    position: absolute; /* absolute position */
+    left: 5.54%; /* left position */
+    right: 92.19%; /* right position */
+    top: 3.88%; /* top position */
+    bottom: 93.55%; /* bottom position */
+    font-size: 25px; /* font size */
+}
+
+/* hide fake news popup */
+#pop-up-fake{
+    visibility: hidden;
+}
+
+/* hide wrong popup */
+#pop-up-wrong{
+    visibility: hidden;
+}
+
+/* hide wrong popup */
+#pop-up-real{
+    visibility: hidden;
+}
 
 /* footer style */
 .footer{
