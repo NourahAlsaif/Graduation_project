@@ -94,7 +94,11 @@ body{
     background: #1A191E; /* background color */
     border: none; /* no borders */
     border-radius: 6px; /* border radius */
-     /* top margin */
+    color: #FFFFFF; /* white color for CHECK text */
+    font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
+    font-size: 17px; /* font size */
+    position: absolute; /* absolute position */
+    margin-top: 280px; /* top margin */
 }
 
 /* Get started link properties and style */
