@@ -107,6 +107,11 @@ display: flex;
     width: 568px;
     height: 202px;
 }
+/* SERVICES SECTION */
+.Services-section h1{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
 .Services-section{
  padding: 80px 0;
     margin-left: 115px;
@@ -156,10 +161,222 @@ display: flex;
     margin-left: 40px;
     color: #1A191E;
 }
+/* ABOUT US SECTION */
 
+.aboutus-Section h1{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.aboutus-Section{
+ padding: 80px 0;
+    margin-left: 115px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 18px;
 
+}
+.aboutus-Section .services-cards{
+     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
+    border-radius: 10px;
+    width: 1236px;
+    height: 220px;
+}
+.aboutus-Section .services-card img{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 120px;
+}
+.aboutus-Section .services-card p{
+    margin-left: 180px;
+    margin-top: -45px;
+    text-align: left;
+}
+.aboutus-Section .services-card p1{
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 199%;
+    margin-left: 50px;
+    margin-top: -15px;
+}
+.aboutus-Section .services-card p2{
+    margin-left: 50px;
+    line-height: 199%;
+}
+.aboutus-Section .services-card p3{
+    line-height: 199%;
+    margin-left: 50px;
+}
+/* OUR TEAM SECTION */
+.Ourteam-section{
+    padding: 80px 0;
+    margin-left: 115px;
+    margin-bottom: 300px;
+}
+.Ourteam-cards{
+    margin-top: 40px;
+}
+/* Start of Dr.kashish info */
+.Ourteam-section .Ourteam-cards img{
+    margin-left: 110px;
+}
+.Ourteam-section .ourteam-cardk{
+     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
+    border-radius: 10px;
+    width: 280px;
+    height: 119px;
+}
+.Ourteam-section .ourteam-cardk h5{
+    top: 50.92%;
+    text-align: center;
+}
+.Ourteam-section .ourteam-cardk p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: -0.03em;
 
+}
+ .Ourteam-section .ourteam-cardk img{
+     margin-left: 10px;
+ }
+.Ourteam-section .social{
+    margin-left: 90px;
+}
 
+/* Start of Reem Info Design */
+.Ourteam-section .Ourteam-cardr img{
+    margin-left: 350px;
+    margin-bottom: 90px;
+}
+.Ourteam-section .ourteam-cardrr{
+     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
+    border-radius: 10px;
+    width: 280px;
+    height: 119px;
+    top: 45.87%;
+    margin-left: 240px;
+    margin-top: -90px;
+}
+.Ourteam-section .ourteam-cardrr h5{
+    top: 50.92%;
+    text-align: center;
+}
+.Ourteam-section .ourteam-cardrr p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: -0.03em;
+
+}
+ .Ourteam-section .ourteam-cardrr img{
+     margin-left: 10px;
+ }
+.Ourteam-section .social{
+    margin-left: 90px;
+}
+/* start Tasneem info  */
+.Ourteam-section .Ourteam-cardt img{
+    margin-left: 360px;
+    margin-bottom: 40px;
+    margin-top: -820px;
+
+}
+.Ourteam-section .ourteam-cardtt{
+     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
+    border-radius: 10px;
+    width: 280px;
+    height: 119px;
+    margin-left: 250px;
+    /*margin-bottom: 20px;*/
+    margin-top: -400px;
+}
+.Ourteam-section .ourteam-cardtt h5{
+    top: 50.92%;
+    text-align: center;
+}
+.Ourteam-section .ourteam-cardtt p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: -0.03em;
+
+}
+ .Ourteam-section .ourteam-cardtt img{
+     margin-left: 10px;
+ }
+.Ourteam-cardt .social img{
+    /*margin-left: 90px;*/
+    margin-top: -5px;
+}
+/* start NOURAH info  */
+.Ourteam-section .Ourteam-cardn img{
+    margin-left: 340px;
+    margin-bottom: -80px;
+    margin-top: -100px;
+}
+.Ourteam-section .ourteam-cardnn{
+     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
+    border-radius: 10px;
+    width: 280px;
+    height: 119px;
+    top: 45.87%;
+    margin-left: 240px;
+    /*margin-bottom: 100px; */
+    margin-top: 20px;
+}
+.Ourteam-section .ourteam-cardnn h5{
+    top: 50.92%;
+    text-align: center;
+}
+.Ourteam-section .ourteam-cardnn p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: -0.03em;
+
+}
+ .Ourteam-section .ourteam-cardnn img{
+     margin-left: 10px;
+     margin-bottom: 60px;
+ }
+.ourteam-cardnn .social img{
+    margin-bottom: -100px;
+}
+/* start Amal info  */
+.Ourteam-section .Ourteam-carda img{
+    margin-left: 340px;
+    margin-bottom: 40px;
+    margin-top: -620px;
+}
+.Ourteam-section .ourteam-cardaa{
+     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
+    border-radius: 10px;
+    width: 280px;
+    height: 119px;
+    top: 45.87%;
+    margin-left: 230px;
+    /*margin-bottom: 100px; */
+    margin-top: -300px;
+}
+.Ourteam-section .ourteam-cardaa h5{
+    top: 50.92%;
+    text-align: center;
+}
+.Ourteam-section .ourteam-cardaa p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: -0.03em;
+
+}
+ .Ourteam-section .ourteam-cardaa img{
+     margin-left: 10px;
+     margin-bottom: 60px;
+ }
+.ourteam-cardaa .social img{
+    margin-top: 5px;
+}
 
 
 
