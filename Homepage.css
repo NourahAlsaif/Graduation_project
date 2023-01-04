@@ -164,6 +164,10 @@ display: flex;
     color: #1A191E;
     text-decoration: none;
 }
+.button:hover{
+    border: none;
+    color: #E8F2EE;
+}
 .Services-section .services-cardd .link h4{
     margin-top: 20px;
 }
@@ -187,7 +191,7 @@ display: flex;
 /* ABOUT US SECTION */
 
 .aboutus-Section h1{
-    margin-top: 100px;
+    margin-top: 90px;
     margin-bottom: 30px;
 }
 .aboutus-Section{
@@ -231,11 +235,13 @@ display: flex;
     line-height: 199%;
     margin-left: 50px;
 }
+
 /* OUR TEAM SECTION */
 .Ourteam-section{
     padding: 80px 0;
     margin-left: 115px;
     margin-bottom: 300px;
+    margin-top: 90px;
 }
 .Ourteam-cards{
     margin-top: 40px;
