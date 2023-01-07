@@ -93,6 +93,7 @@ nav{
 }
 /* end of header style */
 
+
 /* body and content style */
 
 /* first section style */
@@ -113,7 +114,7 @@ nav{
 }
 /* end of the first section style */
 
-/* SERVICES SECTION */
+/* SERVICES SECTION style */
 .Services-section h1{
     margin-top: 100px; /* distance between the services section and the previous section */
     margin-bottom: 40px; /* distance between the Service title and the boxes */
@@ -215,8 +216,9 @@ nav{
     margin-left: 40px; /* left margin */
     color: #1A191E; /* text color */
 }
+/* end of SERVICES SECTION style */
 
-/* ABOUT US SECTION */
+/* ABOUT US SECTION style */
 .aboutus-Section h1{
     margin-top: 85px; /* distance between the section and the previous section */
     margin-bottom: 40px; /* distance between the title and the content */
@@ -224,7 +226,7 @@ nav{
 }
 
 .aboutus-Section{
-    padding: 75px 0;
+    padding: 75px 0; /* padding */
     margin-left: 142px; /* left margin */
     font-family: 'DM Sans', sans-serif; /* font family */
     font-weight: 500; /* font weight */
@@ -274,8 +276,9 @@ nav{
     margin-left: 50px; /* left margin */
     font-size: 19px; /* font size */
 }
+/* end of ABOUT US SECTION style */
 
-/* OUR TEAM SECTION */
+/* OUR TEAM SECTION style */
 .Ourteam-section{
     padding: 80px 0; /* padding of the boxes (80 is the T/B padding) */
     margin-left: 142px; /* left margin */
@@ -287,83 +290,87 @@ nav{
     font-size: 60px; /* font size */
     margin-bottom: 40px; /* distance between the title and the content */
 }
+
 .Ourteam-cards{
-    margin-top: 40px;
-    margin-right: 20px;
+    margin-top: 40px; /* distance between cards and title */
+    margin-right: 20px; /* right margin */
 }
-/* Start of Dr.kashish info */
+
+/* start of Dr.kashish info */
 .Ourteam-section .Ourteam-cards img{
-    margin-left: 120px;
+   margin-left: 133px; /* image of Dr.Kashish */
 }
 .Ourteam-section .ourteam-cardk{
-    background: #FFFFFF;
-     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
-    border-radius: 10px;
-    margin-left: 20px;
-    width: 280px;
-    height: 119px;
+    background: #FFFFFF; /* white background */
+    box-shadow: 0px 16px 60px rgba(112,144,176,0.2); /* box shadow */
+    border-radius: 10px; /* border radius */
+    margin-left: 20px; /* left margin */
+    width: 280px; /* width of the box */
+    height: 119px; /* height of the box */
+}
+.Ourteam-section .ourteam-cardk:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardk h5{
-    top: 50.92%;
-    text-align: center;
+    text-align: center; /* center alignment */
+    padding-top: 7px; /* top padding */
 }
 .Ourteam-section .ourteam-cardk p{
-    font-weight: 400;
-    font-size: 16px;
-    text-align: left;
-    letter-spacing: -0.03em;
-
+    font-size: 16px; /* text size */
+    letter-spacing: -0.03em; /* letter spacing */
 }
- .Ourteam-section .ourteam-cardk img{
-     margin-left: 10px;
-     display: inline-block;
- }
+.Ourteam-section .ourteam-cardk img{
+     margin-left: 10px; /* left margin */
+     display: inline-block; /* inline-block display */
+}
 .Ourteam-section .social{
-    margin-left: 90px;
+    margin-left: 90px; /* left margin */
 }
+/* end of Dr.kashish info */
 
 /* Start of Reem Info Design */
 .Ourteam-section .Ourteam-cardr img{
-    margin-left: 350px;
-    margin-bottom: 90px;
+    margin-left: 350px; /* left margin */
+    margin-bottom: 90px; /* bottom margin */
+}
+.Ourteam-section .ourteam-cardrr:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardrr{
-    background: #FFFFFF;
-     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
-    border-radius: 10px;
-    width: 280px;
-    height: 119px;
-    top: 45.87%;
-    margin-left: 240px;
-    margin-top: -90px;
-}
-
-.Ourteam-section .ourteam-cardk:hover{
-    background: #E8F2EE;
+    background: #FFFFFF; /* white background */
+    box-shadow: 0px 16px 60px rgba(112,144,176,0.2); /* box shadow */
+    border-radius: 10px; /* border radius */
+    width: 280px; /* width of the box */
+    height: 119px; /* height of the box */
+    top: 45.87%; /**/
+    margin-left: 240px; /* left margin */
+    margin-top: -90px; /* top margin */
 }
 .Ourteam-section .ourteam-cardrr h5{
-    top: 50.92%;
-    text-align: center;
+    text-align: center; /* center alignment */
+    padding-top: 7px; /* top padding */
 }
 .Ourteam-section .ourteam-cardrr p{
-    font-weight: 400;
-    font-size: 16px;
-    text-align: left;
-    letter-spacing: -0.03em;
-
+    font-size: 16px; /* text size */
+    text-align: left; /* align left */
+    letter-spacing: -0.03em; /* letter spacing */
 }
- .Ourteam-section .ourteam-cardrr img{
-     margin-left: 10px;
- }
+.Ourteam-section .ourteam-cardrr img{
+    margin-left: 10px; /* left margin */
+}
 .Ourteam-section .social{
-    margin-left: 90px;
+    margin-left: 90px; /* left margin */
 }
-/* start Tasneem info  */
+/* end of Reem info */
+
+/* start of Tasneem info  */
 .Ourteam-section .Ourteam-cardt img{
     margin-left: 370px;
     margin-bottom: 40px;
     margin-top: -820px;
-
+}
+.Ourteam-section .Ourteam-cardt .ourteam-cardtt:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardtt{
     background: #FFFFFF;
@@ -376,8 +383,8 @@ nav{
     margin-top: -400px;
 }
 .Ourteam-section .ourteam-cardtt h5{
-    top: 50.92%;
-    text-align: center;
+    text-align: center; /* center alignment */
+    padding-top: 7px; /* top padding */
 }
 .Ourteam-section .ourteam-cardtt p{
     font-weight: 400;
@@ -411,8 +418,8 @@ nav{
     margin-top: 20px;
 }
 .Ourteam-section .ourteam-cardnn h5{
-    top: 50.92%;
-    text-align: center;
+    text-align: center; /* center alignment */
+    padding-top: 7px; /* top padding */
 }
 .Ourteam-section .ourteam-cardnn p{
     font-weight: 400;
@@ -446,15 +453,14 @@ nav{
     margin-top: -300px;
 }
 .Ourteam-section .ourteam-cardaa h5{
-    top: 50.92%;
-    text-align: center;
+    text-align: center; /* center alignment */
+    padding-top: 7px; /* top padding */
 }
 .Ourteam-section .ourteam-cardaa p{
     font-weight: 400;
     font-size: 16px;
     text-align: left;
     letter-spacing: -0.03em;
-
 }
  .Ourteam-section .ourteam-cardaa img{
      margin-left: 10px;
