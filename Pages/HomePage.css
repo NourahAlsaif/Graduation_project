@@ -330,7 +330,7 @@ nav{
 
 /* Start of Reem Info Design */
 .Ourteam-section .Ourteam-cardr img{
-    margin-left: 350px; /* left margin */
+    margin-left: 365px; /* left margin */
     margin-bottom: 90px; /* bottom margin */
 }
 .Ourteam-section .ourteam-cardrr:hover{
@@ -343,7 +343,7 @@ nav{
     width: 280px; /* width of the box */
     height: 119px; /* height of the box */
     top: 45.87%; /**/
-    margin-left: 240px; /* left margin */
+    margin-left: 255px; /* left margin */
     margin-top: -90px; /* top margin */
 }
 .Ourteam-section .ourteam-cardrr h5{
@@ -365,9 +365,9 @@ nav{
 
 /* start of Tasneem info  */
 .Ourteam-section .Ourteam-cardt img{
-    margin-left: 370px;
+    margin-left: 615px;
     margin-bottom: 40px;
-    margin-top: -820px;
+    margin-top: -705px;
 }
 .Ourteam-section .Ourteam-cardt .ourteam-cardtt:hover{
     background: #E8F2EE; /* hover color */
@@ -378,9 +378,9 @@ nav{
     border-radius: 10px;
     width: 280px;
     height: 119px;
-    margin-left: 260px;
+    margin-left: 500px;
     /*margin-bottom: 20px;*/
-    margin-top: -400px;
+    margin-top: -343px;
 }
 .Ourteam-section .ourteam-cardtt h5{
     text-align: center; /* center alignment */
@@ -402,9 +402,12 @@ nav{
 }
 /* start NOURAH info  */
 .Ourteam-section .Ourteam-cardn img{
-    margin-left: 340px;
+    margin-left: 840px;
     margin-bottom: -80px;
-    margin-top: -100px;
+    margin-top: -30px;
+}
+.Ourteam-section .ourteam-cardnn:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardnn{
     background: #FFFFFF;
@@ -413,9 +416,9 @@ nav{
     width: 280px;
     height: 119px;
     top: 45.87%;
-    margin-left: 240px;
+    margin-left: 740px;
     /*margin-bottom: 100px; */
-    margin-top: 20px;
+    margin-top: 55px;
 }
 .Ourteam-section .ourteam-cardnn h5{
     text-align: center; /* center alignment */
@@ -433,13 +436,16 @@ nav{
      margin-bottom: 60px;
  }
 .ourteam-cardnn .social img{
-    margin-bottom: -100px;
+    margin-bottom: -20px;
 }
 /* start Amal info  */
 .Ourteam-section .Ourteam-carda img{
-    margin-left: 350px;
+    margin-left: 1100px;
     margin-bottom: 40px;
-    margin-top: -620px;
+    margin-top: -710px;
+}
+.Ourteam-section .ourteam-cardaa:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardaa{
     background: #FFFFFF;
@@ -448,9 +454,9 @@ nav{
     width: 280px;
     height: 119px;
     top: 45.87%;
-    margin-left: 240px;
+    margin-left: 990px;
     /*margin-bottom: 100px; */
-    margin-top: -300px;
+    margin-top: -345px;
 }
 .Ourteam-section .ourteam-cardaa h5{
     text-align: center; /* center alignment */
@@ -467,7 +473,7 @@ nav{
      margin-bottom: 60px;
  }
 .ourteam-cardaa .social img{
-    margin-top: 5px;
+    margin-top: -5px;
 }
 
 /* footer style */
