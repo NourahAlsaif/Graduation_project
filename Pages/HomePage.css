@@ -1,16 +1,3 @@
-/* color root */
-:root{
-    --dark-gray-color: #45505C;
-    --light-blue-color: #62B2A1;
-    --light-blue-color: #999999;
-    --light-gray-color: #8C8C8E;
-    --light-green-color: #E8F2EE;
-    color: #ffff;
-    color: #000000;
-    color: #231F20;
-    color: #F6F6F6;
-}
-
 /* page style */
 *{
     margin: 0;
@@ -34,13 +21,13 @@ nav{
 
 /* Yaqn logo style */
 .logo{
-    padding-top: 10px; /* top padding */
+    padding-top: 10px;
     width: 123px; /* logo width size */
 }
 
 /* nav-link & list items style */
 .nav-links{
-    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    padding: 28px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
     font-size: 13pt; /* size of the font */
     font-family: 'DM Sans', sans-serif; /* font family for the list items */
     font-weight: 420; /* font thickness */
@@ -64,7 +51,7 @@ nav{
 
 /* nav-link-2 & list items style */
 .nav-links-2{
-    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    padding: 28px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
     font-size: 13pt; /* size of the font */
     font-family: 'DM Sans', sans-serif; /* font family for the list items */
     font-weight: 420; /* font thickness */
@@ -93,9 +80,10 @@ nav{
 }
 /* end of header style */
 
-
 /* body and content style */
-
+body{
+    font-family: 'DM Sans', sans-serif; /* font family */
+}
 /* first section style */
 .container{
     display: flex; /* flex display */
@@ -307,6 +295,7 @@ nav{
     margin-left: 20px; /* left margin */
     width: 280px; /* width of the box */
     height: 119px; /* height of the box */
+    transition-duration: 200ms; /* hover speed */
 }
 .Ourteam-section .ourteam-cardk:hover{
     background: #E8F2EE; /* hover color */
@@ -333,9 +322,6 @@ nav{
     margin-left: 365px; /* left margin */
     margin-bottom: 90px; /* bottom margin */
 }
-.Ourteam-section .ourteam-cardrr:hover{
-    background: #E8F2EE; /* hover color */
-}
 .Ourteam-section .ourteam-cardrr{
     background: #FFFFFF; /* white background */
     box-shadow: 0px 16px 60px rgba(112,144,176,0.2); /* box shadow */
@@ -345,6 +331,10 @@ nav{
     top: 45.87%; /**/
     margin-left: 255px; /* left margin */
     margin-top: -90px; /* top margin */
+    transition-duration: 200ms; /* hover speed */
+}
+.Ourteam-section .ourteam-cardrr:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardrr h5{
     text-align: center; /* center alignment */
@@ -369,18 +359,18 @@ nav{
     margin-bottom: 40px;
     margin-top: -705px;
 }
-.Ourteam-section .Ourteam-cardt .ourteam-cardtt:hover{
-    background: #E8F2EE; /* hover color */
-}
 .Ourteam-section .ourteam-cardtt{
     background: #FFFFFF;
-     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
+    box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
     border-radius: 10px;
     width: 280px;
     height: 119px;
     margin-left: 500px;
-    /*margin-bottom: 20px;*/
     margin-top: -343px;
+    transition-duration: 200ms; /* hover speed */
+}
+.Ourteam-section .Ourteam-cardt .ourteam-cardtt:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardtt h5{
     text-align: center; /* center alignment */
@@ -391,34 +381,34 @@ nav{
     font-size: 16px;
     text-align: left;
     letter-spacing: -0.03em;
-
 }
  .Ourteam-section .ourteam-cardtt img{
      margin-left: 10px;
  }
 .Ourteam-cardt .social img{
-    /*margin-left: 90px;*/
     margin-top: -5px;
 }
-/* start NOURAH info  */
+/* end of Tasneem info */
+
+/* start of Nourah info  */
 .Ourteam-section .Ourteam-cardn img{
     margin-left: 840px;
     margin-bottom: -80px;
     margin-top: -30px;
 }
-.Ourteam-section .ourteam-cardnn:hover{
-    background: #E8F2EE; /* hover color */
-}
 .Ourteam-section .ourteam-cardnn{
     background: #FFFFFF;
-     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
+    box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
     border-radius: 10px;
     width: 280px;
     height: 119px;
     top: 45.87%;
     margin-left: 740px;
-    /*margin-bottom: 100px; */
     margin-top: 55px;
+    transition-duration: 200ms; /* hover speed */
+}
+.Ourteam-section .ourteam-cardnn:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardnn h5{
     text-align: center; /* center alignment */
@@ -429,7 +419,6 @@ nav{
     font-size: 16px;
     text-align: left;
     letter-spacing: -0.03em;
-
 }
  .Ourteam-section .ourteam-cardnn img{
      margin-left: 10px;
@@ -438,25 +427,27 @@ nav{
 .ourteam-cardnn .social img{
     margin-bottom: -20px;
 }
+/* end of Nourah info */
+
 /* start Amal info  */
 .Ourteam-section .Ourteam-carda img{
     margin-left: 1100px;
     margin-bottom: 40px;
     margin-top: -710px;
 }
-.Ourteam-section .ourteam-cardaa:hover{
-    background: #E8F2EE; /* hover color */
-}
 .Ourteam-section .ourteam-cardaa{
     background: #FFFFFF;
-     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
+    box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
     border-radius: 10px;
     width: 280px;
     height: 119px;
     top: 45.87%;
     margin-left: 990px;
-    /*margin-bottom: 100px; */
     margin-top: -345px;
+    transition-duration: 200ms; /* hover speed */
+}
+.Ourteam-section .ourteam-cardaa:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardaa h5{
     text-align: center; /* center alignment */
@@ -475,6 +466,7 @@ nav{
 .ourteam-cardaa .social img{
     margin-top: -5px;
 }
+/* end of Amal info */
 
 /* footer style */
 .footer{
@@ -493,34 +485,34 @@ nav{
 }
 
 /* horizontal row style */
-hr{
+.footerLine{
     width: 92%; /* hr width */
     border: 0; /* no borders */
     height: 1px; /* hr height */
     background-image: linear-gradient(to right, rgba(1, 1, 1, 0), rgba(255, 255, 255, 0.75), rgba(1, 1, 1, 0)); /* style of hr */
     position: absolute; /* absolute position */
-    bottom: 60px; /* bottom distance */
+    bottom: 50px; /* bottom distance */
 }
 
 /* made by figma style */
-#madeBy {
-    margin-top: 240px; /* top margin */
+#madeBy{
+    margin-top: 235px; /* top margin */
     display: flex; /* center */
     justify-content: center; /* center */
-    font-family: 'DM Sans', sans-serif; /* font family */
     color: #B7C1C2; /* text color */
+    font-family: "DM Sans, n", sans-serif;
 }
 
 /* footer nav style */
 .footernav {
-       display: flex; /* To align the elements in auto width and auto height.*/
+    display: flex; /* To align the elements in auto width and auto height.*/
+    font-family: 'DM Sans, n', sans-serif; /* font family */
 }
 
 /* footer-nav-links-1 & list items style */
 .footer-nav-links-1{
-    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    padding: 13px 10px; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
     font-size: 15pt; /* size of the font */
-    font-family: 'DM Sans', sans-serif; /* font family for the list items */
     margin-left: 40px; /* the space between the logo and first li */
     position: absolute; /* absolute position */
     bottom: 70px; /* bottom distance */
@@ -540,9 +532,8 @@ hr{
 
 /* footer-nav-links-2 & list items style */
 .footer-nav-links-2{
-    padding: 29px 0; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
+    padding: 13px 10px; /* padding of the nav-bar elements (T&B: 28px) (R&L: 0), to align middle the elements with nav-bar */
     font-size: 15pt; /* size of the font */
-    font-family: 'DM Sans', sans-serif; /* font family for the list items */
     margin-left: 40px; /* the space between the logo and first li */
     position: absolute; /* absolute position */
     bottom: 70px; /* bottom distance */

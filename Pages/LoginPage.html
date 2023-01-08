@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <!-- head -->
 <head>
   <!-- page and view-port setting -->
@@ -10,7 +9,7 @@
 
     <!-- page title and icon -->
     <link rel="icon" href="../images/Q7.svg">
-    <title>Sign up</title>
+    <title>Login</title>
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,18 +24,17 @@
 <body>
     <!-- left section -->
     <div id="background">
-            <img class="Q-register" src="../images/Q-register.svg">
+        <img class="Q-register" src="../images/Q-register.svg">
     </div>
 
+    <!-- right section (login form) -->
     <div class="rightSection">
-        <form class="signupForm">
-            <img src="../images/Signup.svg">
-            <input type="firstName"placeholder="First Name" class="input_field" id="firstName" >
-            <input type="lastName"placeholder="Last Name" class="input_field" id="lastName" >
-            <input type="email"placeholder="Email" class="input_field" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <input type="password" placeholder="Password" class="input_field" id="exampleInputPassword1">
-            <button type="submit" class="button">Sign up</button>
-            <p>Do you have an account?  <a class="a"  href="LoginPage.html">Login</a></p>
+        <form class="loginForm">
+            <img class="loginTitle" src="../images/LOGIN.svg"> <br>
+            <input aria-describedby="emailHelp"class="input_field" id="exampleInputEmail1" placeholder="Email" type="email"> <br>
+            <input class="input_field" id="exampleInputPassword1" placeholder="Password" type="password"> <br>
+            <button class="button" type="submit">Login</button>
+            <p>Don't have an account?  <a class="a"  href="SignupPage.html">Sign up</a></p>
         </form>
     </div>
 </body>

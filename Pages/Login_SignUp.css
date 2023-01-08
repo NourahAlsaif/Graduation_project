@@ -1,19 +1,58 @@
-.login_font{
-
-    width: 400px;
-    height: 96px;
-    font-family: 'JK Abode';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 96px;
-    line-height: 96px;
-    color: #62B2A1;
-    margin-bottom: 50px;
-    margin-left: 180px;
+/* left section style */
+#background {
+    background: #62B2A1; /* background color */
+    width: 40%; /* bg width */
+    height: 1024px; /* bg height */
+    position: fixed; /* fixed position */
+    top: 0; /* 0 top distance */
+    left: 0; /* 0 left distance */
 }
 
+.Q-register{
+    position: fixed; /* fixed position */
+    left: 150px; /* left distance */
+    top: 180px; /* top distance */
+    width: 260.09px; /* image width */
+    height:406px; /* image height */
+}
+/* end of left section style */
 
-/* button style */
+/* right section style */
+.rightSection{
+    position: absolute;
+    width: 531px;
+    height: 510px;
+    left: 856px;
+    top: 165px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* right section style of Login page */
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    position: absolute;
+    width: 531px;
+}
+
+.input_field{
+    width: 530px;
+    border: none;
+    border-bottom: 2px solid #45505C;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
+}
+
+.input_field:focus{
+    outline:none;
+    border-bottom: 2px solid #62B2A1;
+}
+
 .button{
     width: 296px; /* button width */
     height: 48px; /* button height */
@@ -24,7 +63,9 @@
     font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
     font-size: 22px; /* font size */
     margin: auto; /* to center the button */
+    margin-top: 30px;
     display: block; /* to center the button */
+    transition-duration: 200ms; /* hover speed */
 }
 
 /* button hover style */
@@ -33,64 +74,81 @@
     background: #62B2A1; /* hover color */
 }
 
-.input_field{
+.a{
+    color: #62B2A1;
+}
+.a:hover{
+    color: #62B2A1;
+}
+
+p{
+    font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
+    font-size: 18px;
+    color: #5E5E5E;
+    margin-top: 0px;
+}
+/* end of Login style */
+
+/* right section style of Signup page */
+
+.signupForm img {
+    margin-top: -70px;
+}
+.signupForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    position: absolute;
     width: 531px;
+}
+
+.input_field{
+    width: 530px;
     border: none;
     border-bottom: 2px solid #45505C;
     font-size: 20px;
-    margin: 30px 10px 10px 10px;
-
+    font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
 }
 
 .input_field:focus{
     outline:none;
     border-bottom: 2px solid #62B2A1;
-
 }
-.a{color: #62B2A1;}
+
+.button{
+    width: 296px; /* button width */
+    height: 48px; /* button height */
+    background: #1A191E; /* background color */
+    border: none; /* no borders */
+    border-radius: 6px; /* border radius */
+    color: #FFFFFF; /* white color for CHECK text */
+    font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
+    font-size: 22px; /* font size */
+    margin: auto; /* to center the button */
+    margin-top: 30px;
+    display: block; /* to center the button */
+    transition-duration: 200ms; /* hover speed */
+}
+
+/* button hover style */
+.button:hover{
+    border: none; /* no borders */
+    background: #62B2A1; /* hover color */
+}
+
+.a{
+    color: #62B2A1;
+}
 .a:hover{
     color: #62B2A1;
 }
 
-
-
-
-
-
-
-/* Create two equal columns that floats next to each other */
-.column {
-
-    position: absolute;
-    width: 618px;
-    height: 1024px;
-    left: 0px;
-
-
+.signupForm p{
+    font-family: 'DM Sans', sans-serif; /* font family for CHECK text */
+    font-size: 18px;
+    color: #5E5E5E;
+    margin-top: -25px;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 17px;
-
-    position: absolute;
-    width: 531px;
-    height: 710px;
-    left: 763px;
-    top: 83px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
+/* end of Login style */

@@ -134,6 +134,7 @@ body{
     font-size: 22px; /* font size */
     display: block; /* to center the button */
     margin: 50px auto 180px; /* button margin */
+    transition-duration: 200ms; /* hover speed */
 }
 
 .updateButton:hover {

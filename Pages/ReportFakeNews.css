@@ -228,6 +228,7 @@ h3{
 .button:hover{
     border: none; /* no borders */
     background: #62B2A1; /* hover color */
+    transition-duration: 200ms; /* hover speed */
 }
 
 /* style of Report fake news URL */
