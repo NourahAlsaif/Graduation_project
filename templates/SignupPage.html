@@ -1,7 +1,10 @@
+{% load static %}
+
 <!doctype html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="Login_SignUp.css">
+
+        <link rel="stylesheet" href="{% static 'Login_SignUp.css' %}">
 
         <!-- page title and icon -->
         <link rel="icon" href="../images/Q7.svg">
@@ -11,7 +14,8 @@
     <body>
         <img src="../images/yagn.svg" >
 
-        <form>
+        <form action="/Users/" method="post">
+            {% csrf_token %}
             <p class="login_font" >sign up</p>
                 <input type="firstName"placeholder="First Name" class="input_field" id="firstName" >
                 <input type="lastName"placeholder="Last Name" class="input_field" id="lastName" >
@@ -20,5 +24,6 @@
             <button type="submit" class="button">Sign up</button>
             <p>Do you have an account?  <a class="a"  href="#">Login</a></p>
         </form>
+
     </body>
 </html>
