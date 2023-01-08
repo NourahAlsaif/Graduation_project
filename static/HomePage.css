@@ -1,4 +1,5 @@
-:root {
+/* color root */
+:root{
     --dark-gray-color: #45505C;
     --light-blue-color: #62B2A1;
     --light-blue-color: #999999;
@@ -9,6 +10,8 @@
     color: #231F20;
     color: #F6F6F6;
 }
+
+/* page style */
 *{
     margin: 0;
     padding: 0;
@@ -31,7 +34,7 @@ nav{
 
 /* Yaqn logo style */
 .logo{
-    padding-top: 10px;
+    padding-top: 10px; /* top padding */
     width: 123px; /* logo width size */
 }
 
@@ -90,234 +93,284 @@ nav{
 }
 /* end of header style */
 
-/* body and content style */
-body{
 
-}
+/* body and content style */
+
+/* first section style */
 .container{
-display: flex;
-    height: 220px ;
-    width: 1213px;
-    top: 90px;
-    margin-top: 150px;
-    margin-left: 120px;
-    align-items: center;
-    justify-content: space-between;
+    display: flex; /* flex display */
+    height: 250px ; /* distance between the first section and header */
+    margin-top: 170px; /* distance between the first section and header */
+    align-items: center; /* center alignment */
+    justify-content: space-between; /* space between */
+    font-family: 'DM Sans', sans-serif; /* font family */
 }
+
+/* fake image style */
 .bottom-image{
-    width: 568px;
-    height: 202px;
+    width: 568px; /* image width */
+    height: 202px; /* image height */
+    margin-right: -8px; /* right margin */
 }
-/* SERVICES SECTION */
+/* end of the first section style */
+
+/* SERVICES SECTION style */
 .Services-section h1{
-    margin-top: 100px;
-    margin-bottom: 30px;
+    margin-top: 100px; /* distance between the services section and the previous section */
+    margin-bottom: 40px; /* distance between the Service title and the boxes */
+    font-size: 60px; /* font size */
+    font-family: 'DM Sans', sans-serif; /* font family */
 }
+
+/* cards */
 .Services-section{
- padding: 80px 0;
-    margin-left: 130px;
+    padding: 80px 0px; /* padding of the boxes (80 is the T/B padding) */
+    margin-left: 142px; /* margin left */
 }
 
 .Services-section .services-cards{
-    display: flex;
-    gap: 116px;
+    display: flex; /* flex display */
+    gap: 116px; /* distance between cards */
 }
+
 /* Detection news page box and photo design */
 .button{
-    width: 540px;
-    height: 222.68px;
-    left: 0px;
-    top: 33px;
-    background: #FFFFFF;
-    box-shadow: 0px 16px 40px rgba(112,144,176,0.2);
-    border: none;
-    border-radius: 10px;
-    text-align: left;
-    margin-right: 30px;
+    width: 540px; /* width of the box */
+    height: 222.68px; /* height of the box */
+    background: #FFFFFF; /* white background */
+    box-shadow: 0px 16px 40px rgba(112,144,176,0.2); /* box shadow */
+    border: none; /* no border */
+    border-radius: 10px; /* border radius */
+    text-align: left; /* left alignment  */
+    margin-right: 30px; /* right distance between the report box and page border */
+    transition-duration: 200ms; /* hover speed */
 }
-.Services-section .services-card .button .link{
-    color: #1A191E;
-    text-decoration: none;
-}
-.Services-section .services-card .link h4{
-    margin-top: 20px;
-}
-.Services-section .services-card img{
-    margin-left: 410px;
-    margin-top: -190px;
-   /* transform: matrix(0.99,-0.14,-0.14,0.99,0,0); */
-}
-.button:hover{
-    border: none;
-    color: #62B2A1;
-}
-/* Report page box and photo design */
-.Services-section .services-cardd .button{
-    background: #FFFFFF;
-    width: 540px;
-    height: 222.68px;
-    left: 0px;
-    top: 43px;
-    box-shadow: 0px 16px 40px rgba(112,144,176,0.2);
-    border: none;
-    border-radius: 10px;
-    margin-left: 50px;
-}
-.Services-section .services-cardd .button .link{
-    color: #1A191E;
-    text-decoration: none;
-}
-.button:hover{
-    border: none;
-    color: #E8F2EE;
-}
-.Services-section .services-cardd .link h4{
-    margin-top: 20px;
-}
-.Services-section .services-cardd img{
-    position: absolute;
-     margin-left: 420px;
-    margin-top: -140px;
-    /* transform: matrix(0.99,-0.13,0.14,0.99,0,0); */
-}
-.info h4 {
-    margin-top: 60px;
-    margin-left: 40px;
-}
-.info p{
-    font-family: 'DM Sans';
-    font-weight: 500;
-    font-size: 18px;
-    margin-left: 40px;
-    color: #1A191E;
-}
-/* ABOUT US SECTION */
-.aboutus-Section h1{
-    margin-top: 90px;
-    margin-bottom: 30px;
-}
-.aboutus-Section{
- padding: 80px 0;
-    margin-left: 130px;
-    font-family: "DM Sans";
-    font-weight: 500;
-    font-size: 18px;
 
+/* news detection hover */
+.button:hover{
+    background: #E8F2EE; /* hover background color */
 }
+
+/* report fake news hover */
+.Services-section .services-cardd .info .button:hover{
+    background: #E8F2EE; /* hover background color */
+}
+
+/* link style of news detection box */
+.Services-section .services-card .button .link{
+    color: #1A191E; /* link color */
+    text-decoration: none; /* no decoration */
+}
+
+/* style of the news detection text */
+.Services-section .services-card .link h4{
+    margin-top: 20px; /* top margin */
+    padding-bottom: 10px; /* distance between the title and content */
+}
+
+/* news detection image style */
+.Services-section .services-card img{
+    margin-left: 400px; /* left margin */
+    margin-top: -190px; /* top margin */
+}
+
+/* report page box and photo design */
+.Services-section .services-cardd .button{
+    width: 540px; /* width of the box */
+    box-shadow: 0px 16px 40px rgba(112,144,176,0.2); /* box shadow */
+    border: none; /* no borders */
+    border-radius: 10px; /* border radius */
+    margin-left: 50px; /* left margin of the report box */
+}
+
+.Services-section .services-cardd .button .link{
+    color: #1A191E; /* link color */
+    text-decoration: none; /* no decoration */
+}
+
+.Services-section .services-cardd .link h4{
+    margin-top: 20px; /* top margin */
+    padding-bottom: 10px; /* distance between the title and content */
+}
+
+/* report image style */
+.Services-section .services-cardd img{
+    position: absolute; /* absolute position */
+    margin-left: 415px; /* left margin */
+    margin-top: -140px; /* top margin */
+}
+
+/* H4 style (for both) */
+.info h4 {
+    margin-top: 60px; /* top margin */
+    margin-left: 40px; /* left margin */
+    font-family: 'DM Sans', sans-serif; /* font family */
+    font-size: 30px; /* font size of news detection title */
+}
+
+/* paragraph style */
+.info p{
+    font-family: 'DM Sans', sans-serif; /* font family */
+    font-weight: 500; /* font weight */
+    font-size: 19px; /* font size */
+    margin-left: 40px; /* left margin */
+    color: #1A191E; /* text color */
+}
+/* end of SERVICES SECTION style */
+
+/* ABOUT US SECTION style */
+.aboutus-Section h1{
+    margin-top: 85px; /* distance between the section and the previous section */
+    margin-bottom: 40px; /* distance between the title and the content */
+    font-size: 60px; /* font size */
+}
+
+.aboutus-Section{
+    padding: 75px 0; /* padding */
+    margin-left: 142px; /* left margin */
+    font-family: 'DM Sans', sans-serif; /* font family */
+    font-weight: 500; /* font weight */
+    font-size: 18px; /* font size */
+}
+
 .aboutus-Section .services-cards{
-    background: #FFFFFF;
-    box-shadow: 0px 16px 70px rgba(112,144,176,0.3);
-    border-radius: 10px;
-    margin-right: 20px;
-    width: 1275px;
-    height: 220px;
+    background: #FFFFFF; /* white background */
+    box-shadow: 0px 16px 70px rgba(112,144,176,0.3); /* box shadow */
+    border-radius: 10px; /* border radius */
+    margin-right: 20px; /* margin right */
+    width: 1275px; /* width */
+    height: 235px; /* height */
+    transition-duration: 200ms; /* hover speed */
 }
+
+.aboutus-Section .services-cards:hover{
+    background: #E8F2EE; /* hover background color */
+}
+
 .aboutus-Section .services-card img{
-    margin-top: 30px;
-    margin-left: 50px;
-    width: 120px;
+    margin-top: 30px; /* top margin */
+    margin-left: 50px; /* left margin */
+    width: 120px; /* width */
 }
+
 .aboutus-Section .services-card p{
-    margin-left: 180px;
-    margin-top: -45px;
-    text-align: left;
+    margin-left: 180px; /* margin left */
+    margin-top: -45px; /* margin top */
+    text-align: left; /* left text alignment */
 }
 .aboutus-Section .services-card p1{
-    font-family: "DM Sans";
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 199%;
-    margin-left: 50px;
-    margin-top: -15px;
+    font-family: 'DM Sans', sans-serif; /* font family */
+    font-weight: 500; /* font weight */
+    font-size: 19px; /* font size */
+    line-height: 199%; /* distance between lines */
+    margin-left: 50px; /* left margin */
+    margin-top: -15px; /* top margin */
 }
 .aboutus-Section .services-card p2{
-    margin-left: 50px;
-    line-height: 199%;
+    margin-left: 50px; /* left margin */
+    line-height: 199%; /* distance between lines */
+    font-size: 19px; /* font size */
 }
 .aboutus-Section .services-card p3{
-    line-height: 199%;
-    margin-left: 50px;
+    line-height: 199%; /* distance between lines */
+    margin-left: 50px; /* left margin */
+    font-size: 19px; /* font size */
+}
+/* end of ABOUT US SECTION style */
+
+/* OUR TEAM SECTION style */
+.Ourteam-section{
+    padding: 80px 0; /* padding of the boxes (80 is the T/B padding) */
+    margin-left: 142px; /* left margin */
+    margin-bottom: 250px; /* distance between the section and footer */
+    margin-top: 100px; /* distance between the section and the previous section */
 }
 
-/* OUR TEAM SECTION */
-.Ourteam-section{
-    padding: 80px 0;
-    margin-left: 130px;
-    margin-bottom: 300px;
-    margin-top: 90px;
+.Ourteam-section h1{
+    font-size: 60px; /* font size */
+    margin-bottom: 40px; /* distance between the title and the content */
 }
+
 .Ourteam-cards{
-    margin-top: 40px;
-    margin-right: 20px;
+    margin-top: 40px; /* distance between cards and title */
+    margin-right: 20px; /* right margin */
 }
-/* Start of Dr.kashish info */
+
+/* start of Dr.kashish info */
 .Ourteam-section .Ourteam-cards img{
-    margin-left: 120px;
+   margin-left: 133px; /* image of Dr.Kashish */
 }
 .Ourteam-section .ourteam-cardk{
-    background: #FFFFFF;
-     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
-    border-radius: 10px;
-    margin-left: 20px;
-    width: 280px;
-    height: 119px;
+    background: #FFFFFF; /* white background */
+    box-shadow: 0px 16px 60px rgba(112,144,176,0.2); /* box shadow */
+    border-radius: 10px; /* border radius */
+    margin-left: 20px; /* left margin */
+    width: 280px; /* width of the box */
+    height: 119px; /* height of the box */
+}
+.Ourteam-section .ourteam-cardk:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardk h5{
-    top: 50.92%;
-    text-align: center;
+    text-align: center; /* center alignment */
+    padding-top: 7px; /* top padding */
 }
 .Ourteam-section .ourteam-cardk p{
-    font-weight: 400;
-    font-size: 16px;
-    text-align: left;
-    letter-spacing: -0.03em;
-
+    font-size: 16px; /* text size */
+    letter-spacing: -0.03em; /* letter spacing */
 }
- .Ourteam-section .ourteam-cardk img{
-     margin-left: 10px;
- }
+.Ourteam-section .ourteam-cardk img{
+     margin-left: 10px; /* left margin */
+     display: inline-block; /* inline-block display */
+}
 .Ourteam-section .social{
-    margin-left: 90px;
+    margin-left: 90px; /* left margin */
 }
+/* end of Dr.kashish info */
 
 /* Start of Reem Info Design */
 .Ourteam-section .Ourteam-cardr img{
-    margin-left: 350px;
-    margin-bottom: 90px;
+    margin-left: 365px; /* left margin */
+    margin-bottom: 90px; /* bottom margin */
+}
+.Ourteam-section .ourteam-cardrr:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardrr{
-    background: #FFFFFF;
-     box-shadow: 0px 16px 60px rgba(112,144,176,0.2);
-    border-radius: 10px;
-    width: 280px;
-    height: 119px;
-    top: 45.87%;
-    margin-left: 240px;
-    margin-top: -90px;
+    background: #FFFFFF; /* white background */
+    box-shadow: 0px 16px 60px rgba(112,144,176,0.2); /* box shadow */
+    border-radius: 10px; /* border radius */
+    width: 280px; /* width of the box */
+    height: 119px; /* height of the box */
+    top: 45.87%; /**/
+    margin-left: 255px; /* left margin */
+    margin-top: -90px; /* top margin */
 }
 .Ourteam-section .ourteam-cardrr h5{
-    top: 50.92%;
-    text-align: center;
+    text-align: center; /* center alignment */
+    padding-top: 7px; /* top padding */
 }
 .Ourteam-section .ourteam-cardrr p{
-    font-weight: 400;
-    font-size: 16px;
-    text-align: left;
-    letter-spacing: -0.03em;
-
+    font-size: 16px; /* text size */
+    text-align: left; /* align left */
+    letter-spacing: -0.03em; /* letter spacing */
 }
- .Ourteam-section .ourteam-cardrr img{
-     margin-left: 10px;
- }
+.Ourteam-section .ourteam-cardrr img{
+    margin-left: 10px; /* left margin */
+}
 .Ourteam-section .social{
-    margin-left: 90px;
+    margin-left: 90px; /* left margin */
 }
-/* start Tasneem info  */
-.Ourteam-section .Ourteam-cardt img{
-    margin-left: 370px;
-    margin-bottom: 40px;
-    margin-top: -820px;
+/* end of Reem info */
 
+/* start of Tasneem info  */
+.Ourteam-section .Ourteam-cardt img{
+    margin-left: 615px;
+    margin-bottom: 40px;
+    margin-top: -705px;
+}
+.Ourteam-section .Ourteam-cardt .ourteam-cardtt:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardtt{
     background: #FFFFFF;
@@ -325,13 +378,13 @@ display: flex;
     border-radius: 10px;
     width: 280px;
     height: 119px;
-    margin-left: 260px;
+    margin-left: 500px;
     /*margin-bottom: 20px;*/
-    margin-top: -400px;
+    margin-top: -343px;
 }
 .Ourteam-section .ourteam-cardtt h5{
-    top: 50.92%;
-    text-align: center;
+    text-align: center; /* center alignment */
+    padding-top: 7px; /* top padding */
 }
 .Ourteam-section .ourteam-cardtt p{
     font-weight: 400;
@@ -349,9 +402,12 @@ display: flex;
 }
 /* start NOURAH info  */
 .Ourteam-section .Ourteam-cardn img{
-    margin-left: 340px;
+    margin-left: 840px;
     margin-bottom: -80px;
-    margin-top: -100px;
+    margin-top: -30px;
+}
+.Ourteam-section .ourteam-cardnn:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardnn{
     background: #FFFFFF;
@@ -360,13 +416,13 @@ display: flex;
     width: 280px;
     height: 119px;
     top: 45.87%;
-    margin-left: 240px;
+    margin-left: 740px;
     /*margin-bottom: 100px; */
-    margin-top: 20px;
+    margin-top: 55px;
 }
 .Ourteam-section .ourteam-cardnn h5{
-    top: 50.92%;
-    text-align: center;
+    text-align: center; /* center alignment */
+    padding-top: 7px; /* top padding */
 }
 .Ourteam-section .ourteam-cardnn p{
     font-weight: 400;
@@ -380,13 +436,16 @@ display: flex;
      margin-bottom: 60px;
  }
 .ourteam-cardnn .social img{
-    margin-bottom: -100px;
+    margin-bottom: -25px;
 }
 /* start Amal info  */
 .Ourteam-section .Ourteam-carda img{
-    margin-left: 350px;
+    margin-left: 1100px;
     margin-bottom: 40px;
-    margin-top: -620px;
+    margin-top: -710px;
+}
+.Ourteam-section .ourteam-cardaa:hover{
+    background: #E8F2EE; /* hover color */
 }
 .Ourteam-section .ourteam-cardaa{
     background: #FFFFFF;
@@ -395,50 +454,27 @@ display: flex;
     width: 280px;
     height: 119px;
     top: 45.87%;
-    margin-left: 240px;
+    margin-left: 990px;
     /*margin-bottom: 100px; */
-    margin-top: -300px;
+    margin-top: -345px;
 }
 .Ourteam-section .ourteam-cardaa h5{
-    top: 50.92%;
-    text-align: center;
+    text-align: center; /* center alignment */
+    padding-top: 7px; /* top padding */
 }
 .Ourteam-section .ourteam-cardaa p{
     font-weight: 400;
     font-size: 16px;
     text-align: left;
     letter-spacing: -0.03em;
-
 }
  .Ourteam-section .ourteam-cardaa img{
      margin-left: 10px;
      margin-bottom: 60px;
  }
 .ourteam-cardaa .social img{
-    margin-top: 5px;
+    margin-top: -5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer style */
 .footer{
@@ -468,7 +504,7 @@ hr{
 
 /* made by figma style */
 #madeBy {
-    margin-top: 222px; /* top margin */
+    margin-top: 240px; /* top margin */
     display: flex; /* center */
     justify-content: center; /* center */
     font-family: 'DM Sans', sans-serif; /* font family */
@@ -518,7 +554,7 @@ hr{
     margin: 17px 0px; /* space between list items */
 }
 
-.footer-nav-links-2 a {
+.footer-nav-links-2 a{
     text-decoration: none; /* remove the underline */
     color: #B7C1C2; /* text color of the list items */
     padding: 5px 0; /* padding to click the item */
